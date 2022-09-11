@@ -6,6 +6,7 @@ I made this layout as a realistic replacement for the qwerty keyboard layout. It
 * Must be optimal for spanish writting (Sorry english typing users).
 * It must be more ergonomical to coding users (ex. parentheses and curl brackets on the uppermost index finger side, shift press is needed to send numbers input).
 * Must replace qwerty.
+* Conserve z, x, c, v keys on same position.
 
 ## Installation
 1. Install autohotkey on your computer, [here](https://www.autohotkey.com/) you will find the installer.
