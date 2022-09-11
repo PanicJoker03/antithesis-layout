@@ -1,14 +1,15 @@
 ﻿ ; Upper row
 q::q
-+q::@
+<+q::@
 w::u
 e::y
 r::i
-t::w
-y::k
-u::r
-i::l
-+i::send ll
+t::k
+y::w
+u::l
+>+u::send ll
+i::n
+>+i::ñ
 o::p
 p::b
 SC001A::/
@@ -21,14 +22,13 @@ SC001B::-
 a::;
 +a:::
 s::o
-d::a
+d::e
 f::f
-g::e
+g::a
 h::s
 j::j
 k::t
-l::n
-+l::ñ
+l::r
 ; Not working
 ; +L::Ñ
 SC027::+
@@ -39,7 +39,7 @@ SC027::+
 z::z
 x::x
 c::c
-+c::send ch
+<+c::send ch
 v::v
 b::.
 n::,
@@ -83,7 +83,7 @@ SC00D::¡
 ;return
 ;Colemak style backspace
 Capslock::Backspace
-LShift::Capslock
++Capslock::Capslock
 
 ; TODO : letras con acento despues de un segundo de presion
 
