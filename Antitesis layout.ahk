@@ -1,52 +1,119 @@
 ﻿ ; Upper row
-q::q
-<+q::@
-w::u
+:*:q::
+{
+	send q
+	KeyWait q, T0.19
+	if ErrorLevel
+		send {Backspace}@
+	return
+}
+
+:*:w::
+{
+	send u
+	KeyWait w, T0.19
+	if ErrorLevel
+		send {Backspace}ú
+	return
+}
+
 e::y
-r::i
+:*:r::
+{
+	send i
+	KeyWait r, T0.19
+	if ErrorLevel
+		send {Backspace}í
+	return
+}
+
 t::k
 y::w
-u::l
->+u::send ll
-i::n
->+i::ñ
+:*:u::
+{
+	send l
+	KeyWait u, T0.19
+	if ErrorLevel
+		send {Backspace}ll
+	return
+}
+i::b
 o::p
-p::b
+p::+
 SC001A::/
 +SC01A::send {`%}
 SC001B::-
-\::=
-+\::send {\}
 
 ; Middle row
-a::;
-+a:::
-s::o
-d::e
+a::<
++a::>
+:*:s::
+{
+	send o
+	KeyWait s, T0.19
+	if ErrorLevel
+		send {Backspace}ó
+	return
+}
+
+:*:d::
+{
+	send e
+	KeyWait d, T0.19
+	if ErrorLevel
+		send {Backspace}é	
+	return
+}
+
 f::f
-g::a
-h::s
+:*:g::
+{
+	send a
+	KeyWait g, T0.19
+	if ErrorLevel
+		send {Backspace}á
+	return
+}
+
+;h::s
 j::j
 k::t
 l::r
 ; Not working
 ; +L::Ñ
-SC027::+
+SC027::n
+{
+	send n
+	KeyWait SC027, T0.19
+	if ErrorLevel
+		send {Backspace}ñ
+	return
+}
++SC027::N
 ;+SC028::^
-'::*
+{::*
+}::=
 
 ; Lower row
+<::ñ
++<::Ñ
 z::z
 x::x
-c::c
-<+c::send ch
+:*:c::
+{
+	send c
+	KeyWait c, T0.19
+	if ErrorLevel
+		send {Backspace}ch
+	return
+}
 v::v
 b::.
 n::,
 m::d
 ,::g
-.::h
-/::m
+.::m
+-::h
 
 ; Number row
 +SC002::Send, {U+0031}
@@ -60,7 +127,7 @@ m::d
 +SC00A::Send, {U+0039}
 +SC00B::Send, {U+0030}
 +SC00C::?
-+SC00D::¿
+;+SC00D::¿
 
 SC029::°
 SC002::!
@@ -77,9 +144,16 @@ SC00A::]
 SC00B::#
 ;SC00B::send {`%}´
 SC00C::'
-SC00D::¡
+;SC00D::¡
 ; special characters
->+h::$
+:*:h::
+{
+	send s
+	KeyWait h, T0.19
+	if ErrorLevel
+		send {Backspace}$
+	return
+}
 ;return
 ;Colemak style backspace
 Capslock::Backspace
