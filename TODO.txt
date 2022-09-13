@@ -1,0 +1,4 @@
+Acentos con letras mayúsculas.
+Congelar entrada de input despues de colocar acento.
+Colocar | en primera tecla de primera fila.
+Documentación.
