@@ -1,8 +1,13 @@
-﻿ ; Upper row
+﻿; Upper row
 :*:q::
 {
-	send q
-	KeyWait q, T0.19
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send Q
+	else
+		send q
+	KeyWait q, T0.2
 	if ErrorLevel
 		send {Backspace}@
 	return
@@ -10,20 +15,36 @@
 
 :*:w::
 {
-	send u
-	KeyWait w, T0.19
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send U
+	else
+		send u
+	KeyWait w, T0.2
 	if ErrorLevel
-		send {Backspace}ú
+		if(st_shift = "D" or st_caps = 1)
+			send {Backspace}Ú
+		else
+			send {Backspace}ú
 	return
 }
 
 e::y
 :*:r::
 {
-	send i
-	KeyWait r, T0.19
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send I
+	else
+		send i
+	KeyWait r, T0.2
 	if ErrorLevel
-		send {Backspace}í
+		if(st_shift = "D" or st_caps = 1)
+			send {Backspace}Í
+		else
+			send {Backspace}í
 	return
 }
 
@@ -31,10 +52,18 @@ t::k
 y::w
 :*:u::
 {
-	send l
-	KeyWait u, T0.19
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send L
+	else
+		send l
+	KeyWait u, T0.2
 	if ErrorLevel
-		send {Backspace}ll
+		if(st_shift = "D" or st_caps = 1)
+			send {Backspace}Ll
+		else
+			send {Backspace}ll
 	return
 }
 i::b
@@ -49,29 +78,53 @@ a::<
 +a::>
 :*:s::
 {
-	send o
-	KeyWait s, T0.19
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send O
+	else
+		send o
+	KeyWait s, T0.2
 	if ErrorLevel
-		send {Backspace}ó
+		if(st_shift = "D" or st_caps = 1)
+			send {Backspace}Ó
+		else
+			send {Backspace}ó
 	return
 }
 
 :*:d::
 {
-	send e
-	KeyWait d, T0.19
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send E
+	else
+		send e
+	KeyWait d, T0.2
 	if ErrorLevel
-		send {Backspace}é	
+		if(st_shift = "D" or st_caps = 1)
+			send {Backspace}É
+		else
+			send {Backspace}é	
 	return
 }
 
 f::f
 :*:g::
 {
-	send a
-	KeyWait g, T0.19
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send A
+	else
+		send a
+	KeyWait g, T0.2
 	if ErrorLevel
-		send {Backspace}á
+		if(st_shift = "D" or st_caps = 1)
+			send {Backspace}Á
+		else
+			send {Backspace}á
 	return
 }
 
@@ -79,17 +132,22 @@ f::f
 j::j
 k::t
 l::r
-; Not working
-; +L::Ñ
 SC027::n
 {
-	send n
-	KeyWait SC027, T0.19
-	if ErrorLevel
-		send {Backspace}ñ
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send N
+	else
+		send n
+	KeyWait SC027, T0.2
+	if ErrorLevel 
+		if(st_shift = "D" or st_caps = 1)
+			send {Backspace}Ñ
+		else
+			send {Backspace}ñ
 	return
 }
-+SC027::N
 ;+SC028::^
 {::*
 }::=
@@ -101,10 +159,18 @@ z::z
 x::x
 :*:c::
 {
-	send c
-	KeyWait c, T0.19
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send C
+	else
+		send c
+	KeyWait c, T0.2
 	if ErrorLevel
-		send {Backspace}ch
+		if(st_shift = "D" or st_caps = 1)
+			send {Backspace}Ch
+		else
+			send {Backspace}ch
 	return
 }
 v::v
@@ -148,17 +214,20 @@ SC00C::'
 ; special characters
 :*:h::
 {
-	send s
-	KeyWait h, T0.19
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send S
+	else
+		send s
+	KeyWait h, T0.2
 	if ErrorLevel
 		send {Backspace}$
 	return
 }
-;return
+
 ;Colemak style backspace
 Capslock::Backspace
 +Capslock::Capslock
-
-; TODO : letras con acento despues de un segundo de presion
 
 ; TODO : Backline 

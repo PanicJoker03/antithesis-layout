@@ -17,6 +17,5 @@ I made this layout as a realistic replacement for the qwerty keyboard layout. It
 
 ## End session
 Exit the 'Antitesis Layout' script from taskbar.
-
 ## Version
-v1.2
+v1.3
