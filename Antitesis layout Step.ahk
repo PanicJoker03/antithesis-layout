@@ -1,91 +1,105 @@
-﻿ ; Upper row
+﻿; Upper row
+
 q::q
-+q::@
+
 w::w
+
 e::e
+
 r::r
+
 t::k
+
 y::y
+
 u::u
+
 i::i
-o::s
-p::p
-SC001A::/
-+SC01A::send {`%}
-SC001B::-
-\::=
-+\::send {\}
+
+o::o
+
+p::b
 
 ; Middle row
-a::;
-+a:::
-s::o
-d::a
+
+a::ñ
+
+s::s
+
+d::g
+
 f::f
-g::g
-h::d
+
+g::a
+ 
+h::n
+
 j::j
+
 k::t
+
 l::l
-+l::send ll
 
-; Not working
-; +L::Ñ
-SC027::+
-;+SC028::^
-'::*
+ñ::m
 
-; Lower row
+; Bottom row
+
 z::z
+
 x::x
+
 c::c
-+c::send ch
+
 v::v
-b::.
-n::,
-m::h
-,::n
-+,::ñ
-.::b
-/::m
+
+b::SC034
+
+n::SC033
+
+m::d
+
+SC033::p
+return
+
+SC034::h
+return  
+
+SC035::SC035
+return  
 
 ; Number row
-+SC002::Send, {U+0031}
-+SC003::Send, {U+0032}
-+SC004::Send, {U+0033}
-+SC005::Send, {U+0034}
-+SC006::Send, {U+0035}
-+SC007::Send, {U+0036}
-+SC008::Send, {U+0037}
-+SC009::Send, {U+0038}
-+SC00A::Send, {U+0039}
-+SC00B::Send, {U+0030}
-+SC00C::?
-+SC00D::¿
 
-SC029::°
-SC002::!
-SC003::[
-; "
-SC004::{
-SC005::(
-SC006::"
-SC007::&
-SC008::)
-; &
-SC009::}
-SC00A::]
-SC00B::#
-;SC00B::send {`%}´
-SC00C::'
-SC00D::¡
-; special characters
->+o::$
-;return
+;+SC002::Send, {U+0031}
+
+;+SC003::Send, {U+0032}
+
+;+SC004::Send, {U+0033}
+
+;+SC005::Send, {U+0034}
+
+;+SC006::Send, {U+0035}
+
+;+SC007::Send, {U+0036}
+
+;+SC008::Send, {U+0037}
+
+;+SC009::Send, {U+0038}
+
+;+SC00A::Send, {U+0039}
+
+;+SC00B::Send, {U+0030}
+
+:*:s::
+{
+	send s
+	KeyWait s, T0.19
+	if ErrorLevel
+		send {Backspace}$
+	return
+}
+
 ;Colemak style backspace
-;Capslock::Backspace
-;LShift::Capslock
+Capslock::Backspace
++Capslock::Capslock
 
-; TODO : letras con acento despues de un segundo de presion
-
-; TODO : Backline 
+;Backspace::RCtrl
