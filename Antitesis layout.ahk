@@ -30,7 +30,7 @@
 	return
 }
 
-e::y
+e::g
 :*:r::
 {
 	GetKeyState, st_shift, Shift
@@ -93,7 +93,7 @@ a::<
 	return
 }
 
-:*:d::
+:*:l::
 {
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
@@ -131,7 +131,7 @@ f::f
 ;h::s
 j::j
 k::t
-l::r
+d::r
 SC027::n
 {
 	GetKeyState, st_shift, Shift
@@ -177,7 +177,7 @@ v::v
 b::.
 n::,
 m::d
-,::g
+,::y
 .::m
 -::h
 
@@ -227,7 +227,9 @@ SC00C::'
 }
 
 ;Colemak style backspace
-Capslock::Backspace
+SC00E::send {Shift Down}{Tab}{Shift Up}
+Tab::Backspace
+Capslock::Tab
 +Capslock::Capslock
 
 ; TODO : Backline 
