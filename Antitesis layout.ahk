@@ -7,7 +7,7 @@
 		send Q
 	else
 		send q
-	KeyWait q, T0.2
+	KeyWait q, T0.3
 	if ErrorLevel
 		send {Backspace}@
 	return
@@ -21,7 +21,7 @@
 		send U
 	else
 		send u
-	KeyWait w, T0.2
+	KeyWait w, T0.3
 	if ErrorLevel
 		if(st_shift = "D" or st_caps = 1)
 			send {Backspace}Ú
@@ -39,7 +39,7 @@ e::y
 		send I
 	else
 		send i
-	KeyWait r, T0.2
+	KeyWait r, T0.3
 	if ErrorLevel
 		if(st_shift = "D" or st_caps = 1)
 			send {Backspace}Í
@@ -58,7 +58,7 @@ y::w
 		send L
 	else
 		send l
-	KeyWait u, T0.2
+	KeyWait u, T0.3
 	if ErrorLevel
 		if(st_shift = "D" or st_caps = 1)
 			send {Backspace}Ll
@@ -84,7 +84,7 @@ a::<
 		send O
 	else
 		send o
-	KeyWait s, T0.2
+	KeyWait s, T0.3
 	if ErrorLevel
 		if(st_shift = "D" or st_caps = 1)
 			send {Backspace}Ó
@@ -101,7 +101,7 @@ a::<
 		send E
 	else
 		send e
-	KeyWait d, T0.2
+	KeyWait l, T0.3
 	if ErrorLevel
 		if(st_shift = "D" or st_caps = 1)
 			send {Backspace}É
@@ -119,7 +119,7 @@ f::f
 		send A
 	else
 		send a
-	KeyWait g, T0.2
+	KeyWait g, T0.3
 	if ErrorLevel
 		if(st_shift = "D" or st_caps = 1)
 			send {Backspace}Á
@@ -140,7 +140,7 @@ SC027::n
 		send N
 	else
 		send n
-	KeyWait SC027, T0.2
+	KeyWait SC027, T0.3
 	if ErrorLevel 
 		if(st_shift = "D" or st_caps = 1)
 			send {Backspace}Ñ
@@ -165,7 +165,7 @@ x::x
 		send C
 	else
 		send c
-	KeyWait c, T0.2
+	KeyWait c, T0.3
 	if ErrorLevel
 		if(st_shift = "D" or st_caps = 1)
 			send {Backspace}Ch
@@ -220,7 +220,7 @@ SC00C::'
 		send S
 	else
 		send s
-	KeyWait h, T0.2
+	KeyWait h, T0.3
 	if ErrorLevel
 		send {Backspace}$
 	return
