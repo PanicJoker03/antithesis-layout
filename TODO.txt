@@ -1,1 +1,2 @@
 Documentación.
+Add keyboard analizer benchmarks, ej. Don Quijote de la Mancha input.
