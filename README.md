@@ -1,4 +1,4 @@
-# Antithesis layout
+# Antit3sis() layout
 QWERTY antithesis keyboard layout
 ![ups](https://raw.githubusercontent.com/PanicJoker03/antithesis-layout/main/antithesis-layout.png)
 
@@ -18,4 +18,4 @@ I made this layout as a realistic replacement for the qwerty keyboard layout. It
 ## End session
 Exit the 'Antitesis Layout' script from taskbar.
 ## Version
-v1.3
+v1.4
