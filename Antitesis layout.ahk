@@ -16,9 +16,7 @@
 	return
 }
 
-w::g
-e::h
-:*:r::
+:*:w::
 {
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
@@ -26,7 +24,7 @@ e::h
 		send U
 	else
 		send u
-	KeyWait r, T0.3
+	KeyWait w, T0.3
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
@@ -38,6 +36,8 @@ e::h
 	return
 }
 
+e::g
+r::h
 t::k
 y::w
 :*:u::
@@ -176,6 +176,26 @@ SC027::
 	return
 }
 
++SC027::
+{
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send N
+	else
+		send n
+	KeyWait SC027, T0.3
+	if ErrorLevel 
+	{
+		if(st_shift = "D" or st_caps = 1)
+			send {Backspace}Ñ
+		else
+			send {Backspace}ñ
+		sleep 1000
+	}
+	return
+}
+
 SC028::/
 +SC028::send \
 
@@ -206,8 +226,8 @@ x::x
 v::v
 b::.
 n::,
-+b::;
-+n:::
++b:::
++n::;
 m::d
 ,::y
 .::b
