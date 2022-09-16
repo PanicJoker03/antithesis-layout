@@ -1,11 +1,11 @@
-# antithesis-layout
+# Antithesis layout
 QWERTY antithesis keyboard layout
+![ups](https://raw.githubusercontent.com/PanicJoker03/antithesis-layout/main/antithesis-layout.png)
 
 ## About
 I made this layout as a realistic replacement for the qwerty keyboard layout. It is focuses on these points:
 * Must be optimal for spanish writting (Sorry english typing users).
 * It must be more ergonomical to coding users (ex. parentheses and curl brackets on the uppermost index finger side, shift press is needed to send numbers input).
-* Must replace qwerty.
 * Conserve 'z', 'x', 'c' and 'v' keys on same position.
 * Conserve 'f' and j keys on same position.
 * Conserve 'q' key on same position.

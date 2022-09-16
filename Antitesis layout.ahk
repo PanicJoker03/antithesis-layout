@@ -16,7 +16,9 @@
 	return
 }
 
-:*:w::
+w::g
+e::h
+:*:r::
 {
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
@@ -24,34 +26,13 @@
 		send U
 	else
 		send u
-	KeyWait w, T0.3
+	KeyWait r, T0.3
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
 			send {Backspace}Ú
 		else
 			send {Backspace}ú
-		sleep 1000
-	}
-	return
-}
-
-e::g
-:*:r::
-{
-	GetKeyState, st_shift, Shift
-	st_caps := GetKeyState("Capslock", "T") 
-	if(st_shift = "D" or st_caps = 1)
-		send I
-	else
-		send i
-	KeyWait r, T0.3
-	if ErrorLevel
-	{
-		if(st_shift = "D" or st_caps = 1)
-			send {Backspace}Í
-		else
-			send {Backspace}í
 		sleep 1000
 	}
 	return
@@ -78,16 +59,39 @@ y::w
 	}
 	return
 }
+
 i::m
 o::p
 p::+
-SC001A::/
-+SC01A::send {`%}
-SC001B::-
++p::send +
+SC001A::*
++SC001A::*	
+SC001B::-	
++SC001B::_
+SC002B::=
++SC002B::send {`%}
 
 ; Middle row
-a::<
-+a::>
+:*:a::
+{
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send I
+	else
+		send i
+	KeyWait a, T0.3
+	if ErrorLevel
+	{
+		if(st_shift = "D" or st_caps = 1)
+			send {Backspace}Í
+		else
+			send {Backspace}í
+		sleep 1000
+	}
+	return
+}
+
 :*:s::
 {
 	GetKeyState, st_shift, Shift
@@ -152,7 +156,6 @@ f::f
 h::r
 j::j
 k::t
-
 SC027::
 {
 	GetKeyState, st_shift, Shift
@@ -172,9 +175,9 @@ SC027::
 	}
 	return
 }
-;+SC028::^
-{::*
-}::=
+
+SC028::/
++SC028::send \
 
 ; Lower row
 <::ñ
@@ -203,10 +206,13 @@ x::x
 v::v
 b::.
 n::,
++b::;
++n:::
 m::d
 ,::y
 .::b
--::h
+SC035::<
++SC035::>
 
 ; Number row
 +SC002::Send, {U+0031}
@@ -224,19 +230,16 @@ m::d
 
 SC029::|
 +SC029::°
-SC002::!
+SC002::&
 SC003::[
-; "
 SC004::{
 SC005::(
 SC006::"
-SC007::&
+SC007::!
 SC008::)
-; &
 SC009::}
 SC00A::]
 SC00B::#
-;SC00B::send {`%}´
 SC00C::'
 ;SC00D::¡
 ; special characters
