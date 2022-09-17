@@ -16,7 +16,8 @@
 	return
 }
 
-:*:w::
+w::g
+:*:e::
 {
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
@@ -24,7 +25,7 @@
 		send U
 	else
 		send u
-	KeyWait w, T0.3
+	KeyWait e, T0.3
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
@@ -36,8 +37,8 @@
 	return
 }
 
-e::g
 r::h
+
 t::k
 y::w
 :*:u::
