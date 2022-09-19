@@ -16,7 +16,7 @@
 	return
 }
 
-w::g
+w::p
 :*:e::
 {
 	GetKeyState, st_shift, Shift
@@ -37,10 +37,10 @@ w::g
 	return
 }
 
-r::h
+r::w
 
 t::k
-y::w
+y::h
 :*:u::
 {
 	GetKeyState, st_shift, Shift
@@ -62,7 +62,7 @@ y::w
 }
 
 i::m
-o::p
+o::g
 p::+
 +p::send +
 SC001A::*
@@ -252,14 +252,14 @@ SC035::<
 SC029::|
 +SC029::°
 SC002::&
-SC003::[
-SC004::{
+SC003::{
+SC004::[
 SC005::(
 SC006::"
 SC007::!
 SC008::)
-SC009::}
-SC00A::]
+SC009::]
+SC00A::}
 SC00B::#
 SC00C::'
 ;SC00D::¡
