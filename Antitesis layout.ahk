@@ -63,12 +63,12 @@ y::h
 
 i::m
 o::g
-p::+
-+p::send +
+p::-
++p::send _
 SC001A::*
 +SC001A::*	
-SC001B::-	
-+SC001B::_
+SC001B::+	
++SC001B::+
 SC002B::=
 +SC002B::send {`%}
 
@@ -225,7 +225,22 @@ x::x
 	return
 }
 v::v
-b::.
+:*:b::
+{
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send :
+	else
+		send .
+	KeyWait b, T0.3
+	if ErrorLevel 
+	{
+		send {Backspace}...
+		sleep 1000
+	}
+	return
+}
 n::,
 +b:::
 +n::;
