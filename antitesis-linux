@@ -1,0 +1,56 @@
+partial alphanumeric_keys
+xkb_symbols "Antit3sis" {
+    include "us(basic)"
+    name[Group1]= "English (Antit3sis)";
+	
+    key <TLDE> {	[     grave,	asciitilde	]	};
+    key <AE01> {	[	  ampersand,	1 	]	};
+    key <AE02> {	[	  braceleft,	2	]	};
+    key <AE03> {	[	  bracketleft,	3	]	};
+    key <AE04> {	[	  parenleft,	4	]	};	
+    key <AE05> {	[	  quotedbl,		5	]	};
+    key <AE06> {	[	  exclam,		6	]	};
+    key <AE07> {	[	  parenright,	7	]	};
+    key <AE08> {	[	  bracketright,	8	]	};
+    key <AE09> {	[	  braceleftright,	9	]	};
+    key <AE10> {	[	  numbersign,	0	]	};
+    key <AE11> {	[     apostrophe,	underscore	]	};
+    key <AE12> {	[     equal,	plus	]	};
+
+    key <AD01> {	[	  q,	Q 		]	};
+    key <AD02> {	[	  p,	p		]	};
+    key <AD03> {	[	  u,	U		]	};
+    key <AD04> {	[	  w,	W		]	};
+    key <AD05> {	[	  k,	K		]	};
+    key <AD06> {	[	  h,	H		]	};
+    key <AD07> {	[	  l,	L		]	};
+    key <AD08> {	[	  m,	M		]	};
+    key <AD09> {	[	  g,	G		]	};
+    key <AD10> {	[	  minus,	underscore		]	};
+
+    key <AC01> {	[ 	  i,	I 		]	};
+    key <AC02> {	[	  o,	O		]	};
+    key <AC03> {	[	  s,	S		]	};
+    key <AC04> {	[	  f,	F		]	};
+    key <AC05> {	[	  a,	A		]	};
+    key <AC06> {	[	  r,	R		]	};
+    key <AC07> {	[	  j,	J		]	};
+    key <AC08> {	[	  t,	T		]	};
+    key <AC09> {	[	  e,	E		]	};
+    key <AC10> {	[ 	  n,	N		]	};
+    key <AC11> {	[     slash,	backslash	    ]	};
+    
+    key <AB01> {	[	  z,	Z 		]	};
+    key <AB02> {	[	  x,	X		]	};
+    key <AB03> {	[	  c,	C		]	};
+    key <AB04> {	[	  v,	V		]	};
+    key <AB05> {	[	  period,	colon 		]	};
+    key <AB06> {	[	  comma,	semicolon		]	};
+    key <AB07> {	[	  d,	D		]	};
+    key <AB08> {	[     y,	Y		]	};
+    key <AB09> {	[     b,	B		]	};
+    key <AB10> {	[     less,	greater		]	};
+
+    key <TAB> { 	[ BackSpace	] 	};
+    key <CAPS> { 	[ Tab, CapsLock	] 	};
+};
