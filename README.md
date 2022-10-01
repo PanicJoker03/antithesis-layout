@@ -30,3 +30,6 @@ http://patorjk.com/keyboard-layout-analyzer/#/main
 
 ## Version
 v1.4.1
+
+## Special thanks
+Ricardo Trejo
