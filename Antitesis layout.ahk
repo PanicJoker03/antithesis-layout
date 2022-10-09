@@ -164,9 +164,9 @@ a::p
 	return
 }
 
-h::r
+h::d
 
-j::d
+j::r
 
 :*:k::
 {
