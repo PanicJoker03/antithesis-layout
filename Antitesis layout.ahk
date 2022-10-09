@@ -188,9 +188,9 @@ j::f
 	return
 }
 
-l::b
+l::t
 
-:*:ñ::
+SC027::
 {
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
@@ -198,7 +198,7 @@ l::b
 		send N
 	else
 		send n
-	KeyWait ñ, T0.27
+	KeyWait SC027, T0.27
 	if ErrorLevel 
 	{
 		if(st_shift = "D" or st_caps = 1)
@@ -210,25 +210,17 @@ l::b
 	return
 }
 
-;+ñ::
-;{
-;	GetKeyState, st_shift, Shift
-;	st_caps := GetKeyState("Capslock", "T") 
-;	if(st_shift = "D" or st_caps = 1)
-;		send N
-;	else
-;		send n
-;	KeyWait SC027, T0.27
-;	if ErrorLevel 
-;	{
-;		if(st_shift = "D" or st_caps = 1)
-;			send {Backspace}Ñ
-;		else
-;			send {Backspace}ñ
-;		sleep 500
-;	}
-;	return
-;}
++SC027::
+{
+	send N
+	KeyWait SC027, T0.27
+	if ErrorLevel 
+	{
+		send {Backspace}Ñ
+		sleep 500
+	}
+	return
+}
 
 SC028::/
 
@@ -290,7 +282,7 @@ m::d
 
 ,::y
 
-.::t
+.::b
 
 SC035::#
 
