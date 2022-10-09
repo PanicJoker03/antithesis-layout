@@ -16,7 +16,7 @@
 	return
 }
 
-w::p
+w::g
 
 :*:e::
 {
@@ -82,25 +82,7 @@ SC002B::=
 +SC002B::send {`%}
 
 ; Middle row
-:*:a::
-{
-	GetKeyState, st_shift, Shift
-	st_caps := GetKeyState("Capslock", "T") 
-	if(st_shift = "D" or st_caps = 1)
-		send I
-	else
-		send i
-	KeyWait a, T0.27
-	if ErrorLevel
-	{
-		if(st_shift = "D" or st_caps = 1)
-			send {Backspace}Í
-		else
-			send {Backspace}í
-		sleep 500
-	}
-	return
-}
+a::p
 
 :*:s::
 {
@@ -162,7 +144,25 @@ SC002B::=
 	return
 }
 
-g::g
+:*:g::
+{
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send I
+	else
+		send i
+	KeyWait g, T0.27
+	if ErrorLevel
+	{
+		if(st_shift = "D" or st_caps = 1)
+			send {Backspace}Í
+		else
+			send {Backspace}í
+		sleep 500
+	}
+	return
+}
 
 h::r
 
