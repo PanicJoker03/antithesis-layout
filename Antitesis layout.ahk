@@ -16,7 +16,7 @@
 	return
 }
 
-w::g
+w::ñ
 
 :*:e::
 {
@@ -61,9 +61,9 @@ y::h
 	return
 }
 
-i::j
+i::d
 
-o::m
+o::j
 
 p::-
 
@@ -73,16 +73,34 @@ SC001A::*
 
 +SC001A::*	
 
-SC001B::+	
+SC001B::/
 
-+SC001B::+
++SC001B::\
 
-SC002B::=
+SC002B::+
 
-+SC002B::send {`%}
++SC002B::+
 
 ; Middle row
-a::p
+:*:a::
+{
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send I
+	else
+		send i
+	KeyWait a, T0.27
+	if ErrorLevel
+	{
+		if(st_shift = "D" or st_caps = 1)
+			send {Backspace}Í
+		else
+			send {Backspace}í
+		sleep 500
+	}
+	return
+}
 
 :*:s::
 {
@@ -104,25 +122,7 @@ a::p
 	return
 }
 
-:*:d::
-{
-	GetKeyState, st_shift, Shift
-	st_caps := GetKeyState("Capslock", "T") 
-	if(st_shift = "D" or st_caps = 1)
-		send U
-	else
-		send u
-	KeyWait d, T0.27
-	if ErrorLevel
-	{
-		if(st_shift = "D" or st_caps = 1)
-			send {Backspace}Ú
-		else
-			send {Backspace}ú
-		sleep 500
-	}
-	return
-}
+d::p
 
 :*:f::
 {
@@ -149,26 +149,28 @@ a::p
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
-		send I
+		send U
 	else
-		send i
+		send u
 	KeyWait g, T0.27
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
-			send {Backspace}Í
+			send {Backspace}Ú
 		else
-			send {Backspace}í
+			send {Backspace}ú
 		sleep 500
 	}
 	return
 }
 
-h::d
+h::m
 
 j::r
 
-:*:k::
+k::t
+
+:*:l::
 {
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
@@ -176,7 +178,7 @@ j::r
 		send E
 	else
 		send e
-	KeyWait k, T0.27
+	KeyWait l, T0.27
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
@@ -188,48 +190,46 @@ j::r
 	return
 }
 
-l::t
+SC027::n
+;{
+;	GetKeyState, st_shift, Shift
+;	st_caps := GetKeyState("Capslock", "T") 
+;	if(st_shift = "D" or st_caps = 1)
+;		send N
+;	else
+;		send n
+;	KeyWait SC027, T0.27
+;	if ErrorLevel 
+;	{
+;		if(st_shift = "D" or st_caps = 1)
+;			send {Backspace}Ñ
+;		else
+;			send {Backspace}ñ
+;		sleep 500
+;	}
+;	return
+;}
+SC028::g
+;+SC027::
+;{
+;	send N
+;	KeyWait SC027, T0.27
+;	if ErrorLevel 
+;	{
+;		send {Backspace}Ñ
+;		sleep 500
+;	}
+;	return
+;}
 
-SC027::
-{
-	GetKeyState, st_shift, Shift
-	st_caps := GetKeyState("Capslock", "T") 
-	if(st_shift = "D" or st_caps = 1)
-		send N
-	else
-		send n
-	KeyWait SC027, T0.27
-	if ErrorLevel 
-	{
-		if(st_shift = "D" or st_caps = 1)
-			send {Backspace}Ñ
-		else
-			send {Backspace}ñ
-		sleep 500
-	}
-	return
-}
+;SC028::/
 
-+SC027::
-{
-	send N
-	KeyWait SC027, T0.27
-	if ErrorLevel 
-	{
-		send {Backspace}Ñ
-		sleep 500
-	}
-	return
-}
-
-SC028::/
-
-+SC028::send \
+;+SC028::send \
 
 ; Lower row
-<::ñ
+;<::ñ
 
-+<::Ñ
+;+<::Ñ
 
 z::z
 
@@ -240,10 +240,27 @@ x::x
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
+		send :
+	else
+		send .
+	KeyWait c, T0.27
+	if ErrorLevel 
+	{
+		send {Backspace}...
+		sleep 500
+	}
+	return
+}
+
+:*:v::
+{
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
 		send C
 	else
 		send c
-	KeyWait c, T0.27
+	KeyWait v, T0.27
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
@@ -254,27 +271,10 @@ x::x
 	}
 	return
 }
-v::v
-:*:b::
-{
-	GetKeyState, st_shift, Shift
-	st_caps := GetKeyState("Capslock", "T") 
-	if(st_shift = "D" or st_caps = 1)
-		send :
-	else
-		send .
-	KeyWait b, T0.27
-	if ErrorLevel 
-	{
-		send {Backspace}...
-		sleep 500
-	}
-	return
-}
+
+b::v
 
 n::,
-
-+b:::
 
 +n::;
 
@@ -284,30 +284,31 @@ m::f
 
 .::b
 
-SC035::#
+SC035::=
 
-;+SC035::>
++SC035::send {`%}
 
 ; Number row
-+SC002::Send, {U+0031}
+; TODO, make it work with capslock
++SC002::Send, {U+0030}
 
-+SC003::Send, {U+0032}
++SC003::Send, {U+0031}
 
-+SC004::Send, {U+0033}
++SC004::Send, {U+0032}
 
-+SC005::Send, {U+0034}
++SC005::Send, {U+0033}
 
-+SC006::Send, {U+0035}
++SC006::Send, {U+0034}
 
-+SC007::Send, {U+0036}
++SC007::Send, {U+0035}
 
-+SC008::Send, {U+0037}
++SC008::Send, {U+0036}
 
-+SC009::Send, {U+0038}
++SC009::Send, {U+0037}
 
-+SC00A::Send, {U+0039}
++SC00A::Send, {U+0038}
 
-+SC00B::Send, {U+0030}
++SC00B::Send, {U+0039}
 
 SC029::!
 
