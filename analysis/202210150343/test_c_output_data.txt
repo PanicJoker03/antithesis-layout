@@ -1,0 +1,2 @@
+Total keys pressed with left hand: 2007
+Total keys pressed with right hand: 2239

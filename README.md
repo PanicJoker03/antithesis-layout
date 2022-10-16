@@ -1,4 +1,4 @@
-# Antit3sis.layout()
+# Antit3sis()
 QWERTY antithesis keyboard layout
 ![ups, could not find that](https://raw.githubusercontent.com/PanicJoker03/antithesis-layout/main/antithesis-layout.png)
 
@@ -6,8 +6,8 @@ QWERTY antithesis keyboard layout
 I made this layout as a realistic replacement for the qwerty keyboard layout. It is focuses on these points:
 * Must be optimal for spanish writting (Sorry english typing users).
 * It must be more ergonomical to coding users (ex. parentheses and curl brackets on the uppermost row side, shift press is needed instead to send numbers input).
-* Conserve 'z', 'x', 'c' and 'v' keys on same position, for daily tasks.
-* Conserve 'f' and 'j' keys on same position, to preserve similarity to key typing users.
+* ~~Conserve 'z', 'x', 'c' and 'v' keys on same position, for daily tasks.~~ 'c' and 'v' swaped to avoid awkard movements.
+* ~~Conserve 'f' and 'j' keys on same position, to preserve similarity to key typing users.~~ Discarted to make ergonomy, efficiency and comodity more important.
 * Conserve 'q' key on same position, In Memoriam of QWERTY layout.
 
 ## Installation
@@ -29,7 +29,7 @@ https://www.elespanol.com/curiosidades/lenguaje/cual-es-letra-mas-usada-espanol-
 http://patorjk.com/keyboard-layout-analyzer/#/main
 
 ## Version
-v1.4.1
+v1.5.0
 
 ## Special thanks
 Ricardo Trejo
