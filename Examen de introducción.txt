@@ -1,0 +1,36 @@
+Haz los siguientes ejercicios, abrir archivo 'Antitesis layout.ahk' para habilitar el teclado:
+
+1. Escribe tu nombre completo.
+->
+
+2. Completa la siguiente oración:
+ Mujer es una hembra así como hombre es un _________
+->
+
+3. ¿A qué equipo de futbol le vas? (Pasar pregunta si no le vas a ninguno).
+-> 
+
+4. Escribe exactamente el siguiente texto a continuación (Revisar teclas de la coma y punto) :
+ Texto -> Hola, Buddy es alguien bien responsable.
+-> 
+
+5. Escribe tu platillo favorito (El mío son las entomatadas).
+-> 
+
+6. ¿Cuánto es 100 - 32?(Para escribir los números es necesario presionar la tecla Shift).
+->
+
+7. Escribe exactamente el siguiente texto a continuación (Dejar presionado las teclas de las vocales para
+ poner un acento, ejemplo, mantén pulsada la 'e' para escribir 'é'. Puedes intentarlo):
+ Texto -> ¿Qué cosas suceden en la mente mientras nos mueven el corazón? 
+->
+
+8. Escribe el nombre de algo que no te agrade.
+->
+
+9. Completa la siguiente oración:
+ Diestra es a alguien diestro como zurda es a alguien ________
+->
+
+10. ¿En qué año murió Jesus en la cruz para salvar a la humanidad del pecado?
+-> 

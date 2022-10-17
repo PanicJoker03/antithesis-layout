@@ -16,20 +16,41 @@
 	return
 }
 
-w::ñ
+:*:w::
+{
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send O
+	else
+		send o
+	KeyWait w, T0.27
+	if ErrorLevel
+	{
+		if(st_shift = "D" or st_caps = 1)
+			send {Backspace}Ó
+		else
+			send {Backspace}ó
+		sleep 500
+	}
+	return
+}
 
 :*:e::
 {
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
-		send S
+		send U
 	else
-		send s
+		send u
 	KeyWait e, T0.27
 	if ErrorLevel
 	{
-		send {Backspace}$
+		if(st_shift = "D" or st_caps = 1)
+			send {Backspace}Ú
+		else
+			send {Backspace}ú
 		sleep 500
 	}
 	return
@@ -37,7 +58,7 @@ w::ñ
 
 r::w
 
-t::k
+t::p
 
 y::h
 
@@ -87,10 +108,32 @@ SC002B::+
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
+		send C
+	else
+		send c
+	KeyWait a, T0.27
+	if ErrorLevel
+	{
+		if(st_shift = "D" or st_caps = 1)
+			send {Backspace}Ch
+		else
+			send {Backspace}ch
+		sleep 500
+	}
+	return
+}
+
+s::v
+
+:*:d::
+{
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
 		send I
 	else
 		send i
-	KeyWait a, T0.27
+	KeyWait d, T0.27
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
@@ -101,28 +144,6 @@ SC002B::+
 	}
 	return
 }
-
-:*:s::
-{
-	GetKeyState, st_shift, Shift
-	st_caps := GetKeyState("Capslock", "T") 
-	if(st_shift = "D" or st_caps = 1)
-		send O
-	else
-		send o
-	KeyWait s, T0.27
-	if ErrorLevel
-	{
-		if(st_shift = "D" or st_caps = 1)
-			send {Backspace}Ó
-		else
-			send {Backspace}ó
-		sleep 500
-	}
-	return
-}
-
-d::p
 
 :*:f::
 {
@@ -149,24 +170,21 @@ d::p
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
-		send U
+		send :
 	else
-		send u
+		send .
 	KeyWait g, T0.27
-	if ErrorLevel
+	if ErrorLevel 
 	{
-		if(st_shift = "D" or st_caps = 1)
-			send {Backspace}Ú
-		else
-			send {Backspace}ú
+		send {Backspace}...
 		sleep 500
 	}
 	return
 }
 
-h::m
+h::r
 
-j::r
+j::b
 
 k::t
 
@@ -209,7 +227,7 @@ SC027::n
 ;	}
 ;	return
 ;}
-SC028::g
+SC028::m
 ;+SC027::
 ;{
 ;	send N
@@ -228,7 +246,6 @@ SC028::g
 
 ; Lower row
 ;<::ñ
-
 ;+<::Ñ
 
 z::z
@@ -240,49 +257,33 @@ x::x
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
-		send :
+		send S
 	else
-		send .
+		send s
 	KeyWait c, T0.27
-	if ErrorLevel 
-	{
-		send {Backspace}...
-		sleep 500
-	}
-	return
-}
-
-:*:v::
-{
-	GetKeyState, st_shift, Shift
-	st_caps := GetKeyState("Capslock", "T") 
-	if(st_shift = "D" or st_caps = 1)
-		send C
-	else
-		send c
-	KeyWait v, T0.27
 	if ErrorLevel
 	{
-		if(st_shift = "D" or st_caps = 1)
-			send {Backspace}Ch
-		else
-			send {Backspace}ch
+		send {Backspace}$
 		sleep 500
 	}
 	return
 }
 
-b::v
+v::k
+
+b::ñ
+
+B::Ñ
 
 n::,
-
-+n::;
+; For some stupid *$$ reason it puts colon when EN Language is set!!!!!
+;+SC031::;
 
 m::f
 
 ,::y
 
-.::b
+.::g
 
 SC035::=
 
@@ -314,7 +315,7 @@ SC029::!
 
 +SC029::¡
 
-SC002::<
+SC002::|
 
 SC003::{
 
@@ -322,17 +323,17 @@ SC004::[
 
 SC005::(
 
-SC006::|
+SC006::<
 
 SC007::&
 
-SC008::)
+SC008::>
 
-SC009::]
+SC009::}
 
-SC00A::}
+SC00A::]
 
-SC00B::>
+SC00B::)
 
 SC00C::"
 
@@ -345,9 +346,10 @@ SC00D::'
 ;SC00D::¡
 
 ;Colemak style backspace
-SC00E::send {Shift Down}{Tab}{Shift Up}
+;SC00E::send {Shift Down}{Tab}{Shift Up}
 
-Tab::Backspace
+; TODO: Emoji Layer
+;Tab::send {Space}{Backspace}
 
 Capslock::Tab
 
