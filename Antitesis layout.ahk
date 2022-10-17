@@ -60,7 +60,22 @@ r::w
 
 t::p
 
-y::h
+:*:y::
+{
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send H
+	else
+		send h
+	KeyWait y, T0.27
+	if ErrorLevel
+	{
+		send {Backspace}{#}
+		sleep 500
+	}
+	return
+}
 
 :*:u::
 {
