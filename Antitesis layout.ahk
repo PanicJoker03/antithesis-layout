@@ -16,32 +16,27 @@
 	return
 }
 
-
 :*:w::
 {
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
-		send I
+		send O
 	else
-		send i
+		send o
 	KeyWait w, T0.27
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
-			send {Backspace}Í
+			send {Backspace}Ó
 		else
-			send {Backspace}í
+			send {Backspace}ó
 		sleep 500
 	}
 	return
 }
 
-e::p
-
-r::w
-
-:*:t::
+:*:e::
 {
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
@@ -49,7 +44,7 @@ r::w
 		send U
 	else
 		send u
-	KeyWait t, T0.27
+	KeyWait e, T0.27
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
@@ -60,6 +55,10 @@ r::w
 	}
 	return
 }
+
+r::w
+
+t::p
 
 :*:y::
 {
@@ -78,7 +77,25 @@ r::w
 	return
 }
 
-u::b
+:*:u::
+{
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send L
+	else
+		send l
+	KeyWait u, T0.27
+	if ErrorLevel
+	{
+		if(st_shift = "D" or st_caps = 1)
+			send {Backspace}Ll
+		else
+			send {Backspace}ll
+		sleep 500
+	}
+	return
+}
 
 i::d
 
@@ -128,16 +145,16 @@ s::v
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
-		send O
+		send I
 	else
-		send o
+		send i
 	KeyWait d, T0.27
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
-			send {Backspace}Ó
+			send {Backspace}Í
 		else
-			send {Backspace}ó
+			send {Backspace}í
 		sleep 500
 	}
 	return
@@ -182,25 +199,7 @@ s::v
 
 h::r
 
-:*:j::
-{
-	GetKeyState, st_shift, Shift
-	st_caps := GetKeyState("Capslock", "T") 
-	if(st_shift = "D" or st_caps = 1)
-		send L
-	else
-		send l
-	KeyWait j, T0.27
-	if ErrorLevel
-	{
-		if(st_shift = "D" or st_caps = 1)
-			send {Backspace}Ll
-		else
-			send {Backspace}ll
-		sleep 500
-	}
-	return
-}
+j::b
 
 k::t
 
@@ -366,8 +365,6 @@ SC00D::'
 
 ; TODO: Emoji Layer
 ;Tab::send {Space}{Backspace}
-
-Tab::BackSpace
 
 Capslock::Tab
 
