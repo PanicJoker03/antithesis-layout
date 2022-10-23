@@ -1,6 +1,6 @@
 # Antit3sis()
 QWERTY antithesis keyboard layout
-![ups, could not find that](https://raw.githubusercontent.com/PanicJoker03/antithesis-layout/cba21075fc544e57482d014ed4dfa2b0426c4abf/keyboard%20layout.svg)
+![ups, could not find that](https://raw.githubusercontent.com/PanicJoker03/antithesis-layout/5d05b3d15da1bcaccf621b66d68364ba6f42ec52/keyboard%20layout.svg)
 
 ## About
 I made this layout as a realistic replacement for the qwerty keyboard layout. It is focuses on these points:
