@@ -1,3 +1,4 @@
+Do not use this version!! v1.5.1 will be the final version for letters... I will rollback it tomorrow.
 # Antit3sis()
 QWERTY antithesis keyboard layout
 ![ups, could not find that](https://raw.githubusercontent.com/PanicJoker03/antithesis-layout/main/antithesis-layout.png)
