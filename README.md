@@ -1,7 +1,6 @@
-Do not use this version!! v1.5.1 will be the final version for letters... I will rollback it tomorrow.
 # Antit3sis()
 QWERTY antithesis keyboard layout
-![ups, could not find that](https://raw.githubusercontent.com/PanicJoker03/antithesis-layout/main/antithesis-layout.png)
+![ups, could not find that](https://raw.githubusercontent.com/PanicJoker03/antithesis-layout/5f2bcaa997c71b31729bf5953d4d0393d86f3452/keyboard%20layout.svg)
 
 ## About
 I made this layout as a realistic replacement for the qwerty keyboard layout. It is focuses on these points:
@@ -30,7 +29,9 @@ https://www.elespanol.com/curiosidades/lenguaje/cual-es-letra-mas-usada-espanol-
 http://patorjk.com/keyboard-layout-analyzer/#/main
 
 ## Version
-v1.5.0
+v1.5.1
 
 ## Special thanks
-Ricardo Trejo
+Ricardo Trejo, for his testing feedback.
+Luis Angel Núñez, for his advice and consistency suggestions.
+Moy Ramirez, for sharing to me information for a future posible patent on Mexican Territory.
