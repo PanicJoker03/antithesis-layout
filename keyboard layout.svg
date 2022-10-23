@@ -352,7 +352,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Capa 2"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        id="rect4552"
        width="34.017857"
@@ -1482,13 +1483,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="457.42697"
-       y="20.05335"
+       x="3.3263769"
+       y="56.414665"
        id="text5449"><tspan
          sodipodi:role="line"
          id="tspan5447"
-         x="457.42697"
-         y="20.05335"
+         x="3.3263769"
+         y="56.414665"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">Backspace</tspan></text>
     <text
        xml:space="preserve"
@@ -1650,7 +1651,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5925)"
-       d="M 487.28698,7.6943615 H 459.54996"
+       d="M 33.186384,44.055674 H 5.4493644"
        id="path5921"
        inkscape:connector-curvature="0" />
     <path
@@ -1903,13 +1904,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="3.5441155"
-       y="45.933781"
+       x="444.86911"
+       y="12.898662"
        id="text5107-3-6-3"><tspan
          sodipodi:role="line"
          id="tspan5105-6-0-6"
-         x="3.5441155"
-         y="45.933781"
+         x="444.86911"
+         y="12.898662"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#0000ff;stroke-width:0.264583">EmLayer</tspan></text>
     <text
        xml:space="preserve"
@@ -1933,5 +1934,6 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="capa 4"
-     sodipodi:insensitive="true" />
+     sodipodi:insensitive="true"
+     style="display:inline" />
 </svg>
