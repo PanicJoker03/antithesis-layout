@@ -364,7 +364,7 @@ SC00D::'
 ;SC00E::send {Shift Down}{Tab}{Shift Up}
 
 ; TODO: Emoji Layer
-Tab::send {Space}{Backspace}
+;Tab::send {Space}{Backspace}
 
 Tab::BackSpace
 
