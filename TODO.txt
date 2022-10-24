@@ -1,4 +1,2 @@
-Acentos con letras mayúsculas.
-Congelar entrada de input despues de colocar acento.
-Colocar | en primera tecla de primera fila.
 Documentación.
+Add keyboard analizer benchmarks, ej. Don Quijote de la Mancha input.
