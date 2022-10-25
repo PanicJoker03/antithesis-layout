@@ -9,6 +9,7 @@ I made this layout as a realistic replacement for the qwerty keyboard layout. It
 * ~~Conserve 'z', 'x', 'c' and 'v' keys on same position, for daily tasks.~~ 'c' and 'v' swaped to avoid awkard movements.
 * ~~Conserve 'f' and 'j' keys on same position, to preserve similarity to key typing users.~~ Discarted to make ergonomy, efficiency and comodity more important.
 * Conserve 'q' key on same position, In Memoriam of QWERTY layout.
+* Key press balance. Average key usage on each hand must be near the same (Check analysis/202210150343/test_c_output_data.txt).
 
 ## Installation
 1. Install autohotkey on your computer, [here](https://www.autohotkey.com/) you will find the installer.
