@@ -35,4 +35,4 @@ v1.5.1
 ## Special thanks
 Ricardo Trejo, for his testing feedback.
 Luis Angel Núñez, for his advice and consistency suggestions.
-Moy Ramirez, for sharing to me information for a future posible patent on Mexican Territory.
+Moy Ramirez, for sharing to me information for a future patent on Mexican Territory.
