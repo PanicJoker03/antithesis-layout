@@ -1,4 +1,4 @@
-; Upper row
+﻿; Upper row
 :*:q::
 {
 	GetKeyState, st_shift, Shift
@@ -350,13 +350,12 @@ SC00B::)
 
 SC00C::"
 
-+SC00C::send ¿
++SC00C::send '
 
-SC00D::'
+SC00D::?
 
-+SC00D::?
++SC00D::send ¿
 
-;SC00D::¡
 
 ;Colemak style backspace
 ;SC00E::send {Shift Down}{Tab}{Shift Up}
