@@ -1,4 +1,4 @@
-﻿; Upper row
+; Upper row
 :*:q::
 {
 	GetKeyState, st_shift, Shift
@@ -257,10 +257,6 @@ SC028::m
 ;	return
 ;}
 
-;SC028::/
-
-;+SC028::send \
-
 ; Lower row
 ;<::ñ
 ;+<::Ñ
@@ -293,7 +289,7 @@ b::ñ
 B::Ñ
 
 SC031::send {`,}
-; For some stupid *$$ reason it puts colon when EN Language is set!!!!!
+
 +SC031::send {`;}
 
 m::f
