@@ -111,32 +111,34 @@ SC001A::*
 
 SC001B::/
 
-+SC001B::\
++SC001B::send \
 
 SC002B::+
 
-+SC002B::+
++SC002B::send +
 
 ; Middle row
-:*:a::
-{
-	GetKeyState, st_shift, Shift
-	st_caps := GetKeyState("Capslock", "T") 
-	if(st_shift = "D" or st_caps = 1)
-		send C
-	else
-		send c
-	KeyWait a, T0.27
-	if ErrorLevel
-	{
-		if(st_shift = "D" or st_caps = 1)
-			send {Backspace}Ch
-		else
-			send {Backspace}ch
-		sleep 500
-	}
-	return
-}
+; Pending till I resolve how to preserve Ch hold output and ctrl + c
+a::c
+;:*:a::
+;{
+;	GetKeyState, st_shift, Shift
+;	st_caps := GetKeyState("Capslock", "T") 
+;	if(st_shift = "D" or st_caps = 1)
+;		send C
+;	else
+;		send c
+;	KeyWait a, T0.27
+;	if ErrorLevel
+;	{
+;		if(st_shift = "D" or st_caps = 1)
+;			send {Backspace}Ch
+;		else
+;			send {Backspace}ch
+;		sleep 500
+;	}
+;	return
+;}
 
 s::v
 
@@ -290,9 +292,9 @@ b::ñ
 
 B::Ñ
 
-n::,
+SC031::send {`,}
 ; For some stupid *$$ reason it puts colon when EN Language is set!!!!!
-;+SC031::;
++SC031::send {`;}
 
 m::f
 
@@ -352,7 +354,7 @@ SC00B::)
 
 SC00C::"
 
-+SC00C::¿
++SC00C::send ¿
 
 SC00D::'
 
