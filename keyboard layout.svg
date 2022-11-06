@@ -145,7 +145,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="930.71429"
+     inkscape:cx="932.14286"
      inkscape:cy="417.85714"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
@@ -1219,12 +1219,12 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="107.76101"
+       x="38.969307"
        y="29.294847"
        id="text5351"><tspan
          sodipodi:role="line"
          id="tspan5349"
-         x="107.76101"
+         x="38.969307"
          y="29.294847"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">[</tspan></text>
     <text
@@ -1241,12 +1241,12 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="39.630848"
+       x="105.24757"
        y="28.76568"
        id="text5359"><tspan
          sodipodi:role="line"
          id="tspan5357"
-         x="39.630848"
+         x="105.24757"
          y="28.76568"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">{</tspan></text>
     <text
@@ -1494,144 +1494,133 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="4.5357141"
-       y="96.742134"
+       x="450.16965"
+       y="21.524872"
        id="text5453"><tspan
          sodipodi:role="line"
          id="tspan5451"
-         x="4.5357141"
-         y="96.742134"
+         x="450.16965"
+         y="21.524872"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">Tab</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="3.3608165"
-       y="80.820229"
-       id="text5457"><tspan
-         sodipodi:role="line"
-         id="tspan5455"
-         x="3.3608165"
-         y="80.820229"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';fill:#ff6600;stroke-width:0.264583">+Caps Lock</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="4.1199403"
-       y="114.65909"
+       x="16.594408"
+       y="80.338852"
        id="text5461"><tspan
          sodipodi:role="line"
          id="tspan5459"
-         x="4.1199403"
-         y="114.65909"
+         x="16.594408"
+         y="80.338852"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">Shift</tspan></text>
     <text
        xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="431.67206"
+       y="121.26199"
+       id="text5461-6"><tspan
+         sodipodi:role="line"
+         id="tspan5459-9"
+         x="431.67206"
+         y="121.26199"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">Caps Lock</tspan></text>
+    <text
+       xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="4.1010418"
+       x="14.684369"
        y="155.48051"
        id="text5465"><tspan
          sodipodi:role="line"
          id="tspan5463"
-         x="4.1010418"
+         x="14.684369"
          y="155.48051"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">Ctrl</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="58.076038"
+       x="57.546871"
        y="149.036"
        id="text5469"><tspan
          sodipodi:role="line"
          id="tspan5467"
-         x="58.076038"
+         x="57.546871"
          y="149.036"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">Win</tspan><tspan
          sodipodi:role="line"
-         x="58.076038"
+         x="57.546871"
          y="161.38322"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583"
          id="tspan5471">Key</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="88.276337"
+       x="100.44718"
        y="155.63167"
        id="text5475"><tspan
          sodipodi:role="line"
          id="tspan5473"
-         x="88.276337"
+         x="100.44718"
          y="155.63167"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">Alt</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="342.27634"
+       x="347.03891"
        y="155.57497"
        id="text5479"><tspan
          sodipodi:role="line"
          id="tspan5477"
-         x="342.27634"
+         x="347.03891"
          y="155.57497"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">Alt Gr</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="397.29074"
+       x="396.23239"
        y="149.26276"
        id="text5483"><tspan
          sodipodi:role="line"
-         x="397.29074"
+         x="396.23239"
          y="149.26276"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583"
          id="tspan5485">Win</tspan><tspan
          sodipodi:role="line"
-         x="397.29074"
+         x="396.23239"
          y="161.60999"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583"
          id="tspan5489">Key</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="427.35873"
+       x="425.77121"
        y="155.48047"
        id="text5493"><tspan
          sodipodi:role="line"
          id="tspan5491"
-         x="427.35873"
+         x="425.77121"
          y="155.48047"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">Menu</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="460.8663"
+       x="471.97897"
        y="155.42383"
        id="text5497"><tspan
          sodipodi:role="line"
          id="tspan5495"
-         x="460.8663"
+         x="471.97897"
          y="155.42383"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">Ctrl</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="419.2323"
-       y="114.71577"
-       id="text5501"><tspan
-         sodipodi:role="line"
-         id="tspan5499"
-         x="419.2323"
-         y="114.71577"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">Shift</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="474.64359"
-       y="45.924103"
+       x="471.46854"
+       y="49.099106"
        id="text5505"><tspan
          sodipodi:role="line"
          id="tspan5503"
-         x="474.64359"
-         y="45.924103"
+         x="471.46854"
+         y="49.099106"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">Enter</tspan></text>
     <flowRoot
        xml:space="preserve"
@@ -1646,7 +1635,7 @@
          id="flowPara5517" /></flowRoot>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
-       d="m 498.5913,50.932931 0.13365,8.018087 -20.71341,0.267269"
+       d="m 495.41628,54.107933 0.13365,8.018087 -20.71341,0.267269"
        id="path5519"
        inkscape:connector-curvature="0" />
     <path
@@ -1656,22 +1645,22 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6360)"
-       d="M 49.578497,88.869092 H 29.132378"
+       d="M 495.21243,13.65183 H 474.76631"
        id="path6356"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6360-3)"
-       d="M 27.44115,95.696622 H 47.887269"
+       d="M 473.07508,20.47936 H 493.5212"
        id="path6356-1"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 26.609519,86.158789 v 5.479024"
+       d="m 472.24345,10.941527 v 5.479024"
        id="path7497"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 49.352871,92.875109 v 5.479023"
+       d="M 494.9868,17.657847 V 23.13687"
        id="path7497-7"
        inkscape:connector-curvature="0" />
     <text
@@ -1709,14 +1698,8 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';fill:#ff6600;stroke-width:0.264583">_</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 8.9769345,125.58259 6.3783475,-8.40997 6.331102,8.22098 -4.157738,10e-6 0.09449,4.15774 -4.393973,0.0472 -0.0945,-4.06325 z"
+       d="m 21.452412,91.262355 6.37837,-8.40997 6.33114,8.22098 -4.15776,1e-5 0.0945,4.15774 -4.39399,0.0472 -0.0945,-4.06325 z"
        id="path7570"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 419.47298,125.74382 6.37835,-8.40997 6.3311,8.22098 -4.15774,1e-5 0.0945,4.15774 -4.39397,0.0472 -0.0945,-4.06325 z"
-       id="path7570-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc" />
     <text
@@ -1799,17 +1782,6 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="404.42468"
-       y="113.84062"
-       id="text5107-3-9-2-9-0-4-5"><tspan
-         sodipodi:role="line"
-         id="tspan5105-6-1-8-6-6-0-46"
-         x="404.42468"
-         y="113.84062"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#ff00ff;stroke-width:0.264583">€</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="213.71562"
        y="80.465302"
        id="text5107-3-9-2-9-0-4-6"><tspan
@@ -1821,53 +1793,9 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="344.66263"
-       y="47.408188"
-       id="text5107-3-9-2-9-0-4-1"><tspan
-         sodipodi:role="line"
-         id="tspan5105-6-1-8-6-6-0-30"
-         x="344.66263"
-         y="47.408188"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#ff00ff;stroke-width:0.264583">~</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="369.60294"
-       y="114.66457"
-       id="text5107-3-95-3"><tspan
-         sodipodi:role="line"
-         id="tspan5105-6-2-4"
-         x="369.60294"
-         y="114.66457"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#ff00ff;stroke-width:0.264583">^</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="283.73291"
        y="80.670097"
        id="text5107-3-9-2-9-0-4-58" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="285.35825"
-       y="80.065323"
-       id="text5107-3-9-2-9-0-4-7"><tspan
-         sodipodi:role="line"
-         id="tspan5105-6-1-8-6-6-0-33"
-         x="285.35825"
-         y="80.065323"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#ff00ff;stroke-width:0.264583">¬</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="429.63174"
-       y="13.57932"
-       id="text5107-3-9-2-9-0-4-8"><tspan
-         sodipodi:role="line"
-         id="tspan5105-6-1-8-6-6-0-9"
-         x="429.63174"
-         y="13.57932"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#ff00ff;stroke-width:0.264583">`</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -1890,17 +1818,6 @@
            x="720.71429"
            y="-167.14288" /></flowRegion><flowPara
          id="flowPara363" /></flowRoot>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="444.86911"
-       y="12.898662"
-       id="text5107-3-6-3"><tspan
-         sodipodi:role="line"
-         id="tspan5105-6-0-6"
-         x="444.86911"
-         y="12.898662"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#0000ff;stroke-width:0.264583">EmLayer</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"

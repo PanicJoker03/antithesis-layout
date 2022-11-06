@@ -7,7 +7,7 @@
 		send Q
 	else
 		send q
-	KeyWait q, T0.27
+	KeyWait q, T0.22
 	if ErrorLevel 
 	{
 		send {Backspace}@
@@ -24,7 +24,7 @@
 		send O
 	else
 		send o
-	KeyWait w, T0.27
+	KeyWait w, T0.22
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
@@ -44,7 +44,7 @@
 		send U
 	else
 		send u
-	KeyWait e, T0.27
+	KeyWait e, T0.22
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
@@ -68,7 +68,7 @@ t::p
 		send H
 	else
 		send h
-	KeyWait y, T0.27
+	KeyWait y, T0.22
 	if ErrorLevel
 	{
 		send {Backspace}{#}
@@ -85,7 +85,7 @@ t::p
 		send L
 	else
 		send l
-	KeyWait u, T0.27
+	KeyWait u, T0.22
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
@@ -150,7 +150,7 @@ s::v
 		send I
 	else
 		send i
-	KeyWait d, T0.27
+	KeyWait d, T0.22
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
@@ -170,7 +170,7 @@ s::v
 		send A
 	else
 		send a
-	KeyWait f, T0.27
+	KeyWait f, T0.22
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
@@ -190,7 +190,7 @@ s::v
 		send :
 	else
 		send .
-	KeyWait g, T0.27
+	KeyWait g, T0.22
 	if ErrorLevel 
 	{
 		send {Backspace}...
@@ -213,7 +213,7 @@ k::t
 		send E
 	else
 		send e
-	KeyWait l, T0.27
+	KeyWait l, T0.22
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
@@ -257,6 +257,10 @@ SC028::m
 ;	return
 ;}
 
+;SC028::/
+
+;+SC028::send \
+
 ; Lower row
 ;<::ñ
 ;+<::Ñ
@@ -273,7 +277,7 @@ x::x
 		send S
 	else
 		send s
-	KeyWait c, T0.27
+	KeyWait c, T0.22
 	if ErrorLevel
 	{
 		send {Backspace}$
@@ -328,11 +332,11 @@ SC029::!
 
 +SC029::¡
 
-SC002::{
+SC002::[
 
 SC003::|
 
-SC004::[
+SC004::{
 
 SC005::(
 
@@ -356,15 +360,13 @@ SC00D::?
 
 +SC00D::send ¿
 
-
-;Colemak style backspace
-;SC00E::send {Shift Down}{Tab}{Shift Up}
-
+SC00E::Tab
+         
 ; TODO: Emoji Layer
-;Tab::send {Space}{Backspace}
+;LShift::send {Space}{Backspace}
 
 Tab::BackSpace
 
-Capslock::Tab
+Capslock::LShift
 
-+Capslock::Capslock
+RShift::Capslock 
