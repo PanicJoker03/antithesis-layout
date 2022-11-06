@@ -1,0 +1,65 @@
+A continuación el listado de bigramas más repetidos del archivo pdf del
+estudio estadístico de la ortografía, en orden en el que aparecen en el
+reporte. Fueron 25, 000 palabras en total si mal no recuerdo, los datos
+originales (del pdf) se consiguieron mediante el uso de un programa 
+informático.
+
+Anexo 1: 
+Bigrama	 |	Freq. Tot. Abs.
+-------------------------------
+ad	 |	(1055), 
+an 	 |	(1156), 
+ar 	 |	(1308), 
+as 	 |	(1182), 
+ci 	 |	(1379), 
+do	 |	(982),
+en	 |	(1829),
+er	 |	(1524),
+es	 |	(1972),
+ia	 |	(980),
+io	 |	(1188),
+nt	 |	(1294),
+on	 |	(1516),
+os	 |	(1371),
+ra	 |	(1360),
+re	 |	(1303),
+ta	 |	(1072),
+te	 |	(1200)
+
+Anexo 2:
+Bigrama	 |	Freq. Tot. Abs.
+-------------------------------
+de	 |	(1680),
+el	 |	(1003),
+la	 |	(1048)
+
+Anexo 3:
+Bigrama	 |	Freq. Tot. Abs.
+-------------------------------
+ad	 |	(1126),
+an	 |	(1282),
+ar	 |	(1509), 
+as	 |	(1426),
+ca	 |	(960),
+ci	 |	(1409),
+co	 |	(1124),
+de	 |	(969),
+do	 |	(1132),
+en	 |	(1989),
+er	 |	(1633),
+es	 |	(2367),
+la	 |	(1022),
+io	 |	(1201),
+nt	 |	(1483),
+on	 |	(1571),
+or	 |	(971),
+os	 |	(1575),
+ra	 |	(1664),
+re	 |	(1442),
+ro	 |	(932),
+st	 |	(985),
+ta	 |	(1280),
+te	 |	(1308),
+to	 |	(990)
+de		(1977)
+
