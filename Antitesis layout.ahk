@@ -41,24 +41,24 @@
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
-		send U
+		send S
 	else
-		send u
+		send s
 	KeyWait e, T0.22
 	if ErrorLevel
 	{
-		if(st_shift = "D" or st_caps = 1)
-			send {Backspace}Ú
-		else
-			send {Backspace}ú
+		send {Backspace}$
 		sleep 500
 	}
 	return
 }
 
-r::w
+r::b
 
-t::p
+SC0014::send {`,}
+; For some stupid *$$ reason it puts colon when EN Language is set!!!!!
++SC0014::send {`;}
+return
 
 :*:y::
 {
@@ -187,21 +187,24 @@ s::v
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
-		send :
+		send U
 	else
-		send .
+		send u
 	KeyWait g, T0.22
-	if ErrorLevel 
+	if ErrorLevel
 	{
-		send {Backspace}...
+		if(st_shift = "D" or st_caps = 1)
+			send {Backspace}Ú
+		else
+			send {Backspace}ú
 		sleep 500
 	}
 	return
 }
 
-h::r
+h::p
 
-j::b
+j::r
 
 k::t
 
@@ -269,32 +272,31 @@ z::z
 
 x::x
 
-:*:c::
-{
-	GetKeyState, st_shift, Shift
-	st_caps := GetKeyState("Capslock", "T") 
-	if(st_shift = "D" or st_caps = 1)
-		send S
-	else
-		send s
-	KeyWait c, T0.22
-	if ErrorLevel
-	{
-		send {Backspace}$
-		sleep 500
-	}
-	return
-}
+c::w
 
 v::k
 
 b::ñ
 
 B::Ñ
+return
 
-SC031::send {`,}
-
-+SC031::send {`;}
+:*:n::
+{
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send {`:}
+	else
+		send .
+	KeyWait n, T0.22
+	if ErrorLevel 
+	{
+		send {Backspace}...
+		sleep 500
+	}
+	return
+}
 
 m::f
 
@@ -308,25 +310,26 @@ SC035::=
 
 ; Number row
 ; TODO, make it work with capslock
-+SC002::Send, {U+0030}
+; default with numbers
++SC002::Send, {U+0031}
 
-+SC003::Send, {U+0031}
++SC003::Send, {U+0032}
 
-+SC004::Send, {U+0032}
++SC004::Send, {U+0033}
 
-+SC005::Send, {U+0033}
++SC005::Send, {U+0034}
 
-+SC006::Send, {U+0034}
++SC006::Send, {U+0035}
 
-+SC007::Send, {U+0035}
++SC007::Send, {U+0036}
 
-+SC008::Send, {U+0036}
++SC008::Send, {U+0037}
 
-+SC009::Send, {U+0037}
++SC009::Send, {U+0038}
 
-+SC00A::Send, {U+0038}
++SC00A::Send, {U+0039}
 
-+SC00B::Send, {U+0039}
++SC00B::Send, {U+0030}
 
 SC029::!
 
@@ -362,11 +365,11 @@ SC00D::?
 
 SC00E::Tab
          
-; TODO: Emoji Layer
-;LShift::send {Space}{Backspace}
+; TODO: Emoji Layer, usar tecla <
+;LShift::send {}
 
 Tab::BackSpace
 
-Capslock::LShift
+Capslock::send {}
 
 RShift::Capslock 
