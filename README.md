@@ -1,7 +1,7 @@
 # Antit3sis()
 
 QWERTY antithesis keyboard layout
-![ups, could not find that](https://raw.githubusercontent.com/PanicJoker03/antithesis-layout/236b7146a103a8918ab9cf99f4f262a67aab0b84/keyboard%20layout.svg)
+![ups, could not find that](https://raw.githubusercontent.com/PanicJoker03/antithesis-layout/45723373de7c39dcbd5fa038f2188f4fdb73c1ff/keyboard%20layout.svg)
 
 ## About
 
@@ -40,7 +40,7 @@ Exit the 'Antitesis Layout' script from taskbar.
 
 ## Version
 
-v1.5.2
+v1.5.3
 
 ## Special thanks
 
