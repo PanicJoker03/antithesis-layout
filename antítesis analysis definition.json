@@ -155,24 +155,24 @@
             "shiftAltGr": -1
         },
         {
-            "primary": 117,
-            "shift": 85,
+            "primary": 115,
+            "shift": 83,
             "finger": 3,
             "id": 17,
             "altGr": -1,
             "shiftAltGr": -1
         },
         {
-            "primary": 119,
-            "shift": 87,
+            "primary": 98,
+            "shift": 66,
             "finger": 4,
             "id": 18,
             "altGr": -1,
             "shiftAltGr": -1
         },
         {
-            "primary": 112,
-            "shift": 80,
+            "primary": 44,
+            "shift": 59,
             "finger": 4,
             "id": 19,
             "altGr": -1,
@@ -243,7 +243,7 @@
             "shiftAltGr": -1
         },
         {
-            "primary": 16,
+            "primary": -1,
             "finger": 1,
             "id": 28,
             "shift": -1,
@@ -283,24 +283,24 @@
             "shiftAltGr": -1
         },
         {
-            "primary": 46,
-            "shift": 58,
+            "primary": 117,
+            "shift": 85,
             "finger": 4,
             "id": 33,
             "altGr": -1,
             "shiftAltGr": -1
         },
         {
-            "primary": 114,
-            "shift": 82,
+            "primary": 112,
+            "shift": 80,
             "finger": 7,
             "id": 34,
             "altGr": -1,
             "shiftAltGr": -1
         },
         {
-            "primary": 98,
-            "shift": 66,
+            "primary": 114,
+            "shift": 82,
             "finger": 7,
             "id": 35,
             "altGr": -1,
@@ -344,7 +344,7 @@
             "id": 40
         },
         {
-            "primary": -1,
+            "primary": 16,
             "finger": 1,
             "id": 41,
             "shift": -1,
@@ -364,8 +364,8 @@
             "id": 43
         },
         {
-            "primary": 115,
-            "shift": 83,
+            "primary": 119,
+            "shift": 87,
             "finger": 3,
             "id": 44,
             "altGr": -1,
@@ -388,8 +388,8 @@
             "shiftAltGr": -1
         },
         {
-            "primary": 44,
-            "shift": 59,
+            "primary": 46,
+            "shift": 58,
             "finger": 7,
             "id": 47,
             "altGr": -1,
