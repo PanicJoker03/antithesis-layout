@@ -1,7 +1,7 @@
 # Antit3sis()
 
 QWERTY antithesis keyboard layout
-![ups, could not find that](https://raw.githubusercontent.com/PanicJoker03/antithesis-layout/5d05b3d15da1bcaccf621b66d68364ba6f42ec52/keyboard%20layout.svg)
+![ups, could not find that](https://raw.githubusercontent.com/PanicJoker03/antithesis-layout/45723373de7c39dcbd5fa038f2188f4fdb73c1ff/keyboard%20layout.svg)
 
 ## About
 
@@ -26,7 +26,7 @@ Exit the 'Antitesis Layout' script from taskbar.
 
 ## Analysis Reference
 
-[Frecuencia de aparición de las letras](https://es.wikipedia.org/wiki/Frecuencia_de_aparici%C3%B3n_de_letras#:~:text=Las%20consonantes%20m%C3%A1s%20frecuentes%20son,supera%20el%201%2C5%25))
+[Frecuencia de aparición de las letras](https://es.wikipedia.org/wiki/Frecuencia_de_aparici%C3%B3n_de_letras#:~:text=Las%20consonantes%20m%C3%A1s%20frecuentes%20son,supera%20el%201%2C5%25)
 
 [Frecuencia de letras y sílabas en español](https://www.solosequenosenada.com/2015/10/23/frecuencia-de-letras-y-de-silabas-en-espanol/)
 
@@ -40,12 +40,12 @@ Exit the 'Antitesis Layout' script from taskbar.
 
 ## Version
 
-v1.5.2
+v1.5.3
 
 ## Special thanks
 
 Ricardo Trejo, for his testing feedback.
 
-Luis Angel Núñez, for his advice and consistency suggestions.
+Luis A. Núñez, for his advice and consistency suggestions.
 
 Moy Ramirez, for sharing to me information for a future posible patent on Mexican Territory.
