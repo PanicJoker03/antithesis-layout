@@ -272,7 +272,7 @@ z::z
 
 x::x
 
-c::w
+c::f
 
 v::k
 
@@ -298,7 +298,7 @@ return
 	return
 }
 
-m::f
+m::w
 
 ,::y
 
