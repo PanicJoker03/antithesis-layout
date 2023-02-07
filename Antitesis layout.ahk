@@ -1,4 +1,17 @@
-﻿; Upper row
+﻿;Emoji lager state
+st_Emoji := 0
+global st_Emoji_on := 0
+
+CapsLock::
+{
+	;Negation... never found how to make it work with just 'st_Emoji = !st_Emoji'
+	st_Emoji++
+	st_Emoji_on := Mod(st_Emoji, 2)
+	MsgBox, %st_Emoji_on% 
+	return
+}
+
+; Upper row
 :*:q::
 {
 	GetKeyState, st_shift, Shift
@@ -140,7 +153,17 @@ a::c
 ;	return
 ;}
 
-s::v
+:*:s::
+if(st_Emoji_on = 0)
+{
+	Send, v
+	return
+}
+else
+{
+	Send, :v
+	return
+}
 
 :*:d::
 {
@@ -168,6 +191,8 @@ s::v
 	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
 		send A
+	else if(st_Emoji_on = 1)
+		send (a_a)
 	else
 		send a
 	KeyWait f, T0.22
@@ -188,6 +213,8 @@ s::v
 	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
 		send U
+	else if(st_Emoji_on = 1)
+		send (u_u)
 	else
 		send u
 	KeyWait g, T0.22
@@ -202,7 +229,17 @@ s::v
 	return
 }
 
-h::p
+:*:h::
+if(st_Emoji_on = 0)
+{
+	Send, p
+	return
+}
+else
+{
+	Send, :p
+	return
+}
 
 j::r
 
@@ -270,7 +307,17 @@ SC028::m
 
 z::z
 
-x::x
+:*:x::
+if(st_Emoji_on = 0)
+{
+	Send, x
+	return
+}
+else 
+{
+	Send, xD
+	return
+}
 
 c::f
 
@@ -370,6 +417,6 @@ SC00E::Tab
 
 Tab::BackSpace
 
-Capslock::send {}
+;Capslock::send {}
 
 RShift::Capslock 
