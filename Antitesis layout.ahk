@@ -1,4 +1,4 @@
-﻿;Emoji lager state
+;Emoji lager state
 st_Emoji := 0
 global st_Emoji_on := 0
 
@@ -68,9 +68,11 @@ CapsLock::
 
 r::b
 
-SC0014::send {`,}
+;SC0014::send {`,}
 ; For some stupid *$$ reason it puts colon when EN Language is set!!!!!
-+SC0014::send {`;}
+;+SC0014::send {`;}
+;return
+
 return
 
 :*:y::
@@ -351,7 +353,7 @@ m::w
 
 .::j
 
-SC035::=
+SC035::|
 
 +SC035::send {`%}
 
@@ -384,23 +386,23 @@ SC029::!
 
 SC002::[
 
-SC003::|
+SC003::{
 
-SC004::{
+SC004::}
 
 SC005::(
 
-SC006::<
+SC006::=
 
-SC007::&
+SC007::<
 
-SC008::>
+SC008::)
 
-SC009::}
+SC009::&
 
 SC00A::]
 
-SC00B::)
+SC00B::>
 
 SC00C::"
 
