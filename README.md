@@ -1,7 +1,7 @@
 # Antit3sis()
 
 QWERTY antithesis keyboard layout
-![ups, could not find that](https://raw.githubusercontent.com/PanicJoker03/antithesis-layout/f7e7a41dfacb8f82a4c102b89a4b08b490e31de2/keyboard%20layout.svg)
+![ups, could not find that](https://raw.githubusercontent.com/PanicJoker03/antithesis-layout/946ed49d6327868d27d8c4d2e6649fbad480d2a0/keyboard%20layout.svg)
 
 ## About
 
