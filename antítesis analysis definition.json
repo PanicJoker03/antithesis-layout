@@ -213,7 +213,7 @@
         {
             "primary": 45,
             "shift": 95,
-            "finger": 10,
+            "finger": 7,
             "id": 24,
             "altGr": -1,
             "shiftAltGr": -1
@@ -382,7 +382,7 @@
         {
             "primary": 241,
             "shift": 209,
-            "finger": 7,
+            "finger": 4,
             "id": 46,
             "altGr": -1,
             "shiftAltGr": -1
@@ -422,7 +422,7 @@
         {
             "primary": 124,
             "shift": 37,
-            "finger": 10,
+            "finger": 8,
             "id": 51,
             "altGr": -1,
             "shiftAltGr": -1
