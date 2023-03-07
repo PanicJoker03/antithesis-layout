@@ -1,4 +1,4 @@
-;Emoji lager state
+﻿;Emoji lager state
 st_Emoji := 0
 global st_Emoji_on := 0
 
@@ -7,7 +7,10 @@ CapsLock::
 	;Negation... never found how to make it work with just 'st_Emoji = !st_Emoji'
 	st_Emoji++
 	st_Emoji_on := Mod(st_Emoji, 2)
-	MsgBox, %st_Emoji_on% 
+	if(st_Emoji_on = 1)
+		MsgBox, Modo emoji activado 
+	else
+		MsgBox, Modo normal activado 
 	return
 }
 
@@ -73,7 +76,22 @@ r::b
 ;+SC0014::send {`;}
 ;return
 
-return
+:*:t::
+{
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send {`;}
+	else
+		send {`,}
+	KeyWait SC0014, T0.22
+	if ErrorLevel
+	{
+		send {Backspace}{U+005E}
+		sleep 500
+	}
+	return
+}
 
 :*:y::
 {
@@ -232,15 +250,24 @@ else
 }
 
 :*:h::
-if(st_Emoji_on = 0)
 {
-	Send, p
-	return
-}
-else
-{
-	Send, :p
-	return
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+	{
+		send P
+		return
+	}
+	else if(st_Emoji_on = 1)
+	{
+		Send, :p
+		return
+	}
+	else
+	{
+		Send, p
+		return
+	}
 }
 
 j::r
