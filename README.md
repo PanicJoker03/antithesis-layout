@@ -24,6 +24,22 @@ I made this layout as a realistic replacement for the qwerty keyboard layout. It
 
 Exit the 'Antitesis Layout' script from taskbar.
 
+## Known bugs
+
+* V shortcut Ctrl + V (and other keys) no longer works, it because the emoticon mode script overrides the native Ctrl functionality.
+* Several keys stop working when numpad is pressed, it works properly again when esc key is pressed or focus is lost.
+
+## Learning curve
+
+This is a really hard layout to get familiar, nearly all keys where swapped, so it will take an enormous effort to
+type at a decent wpm.  
+
+## Advantages over qwerty
+
+More right hand use than qwerty, (convenient for Right handed users).
+Less left pinky finger usage.
+More frequent letters like 'A' and 'E' are distant each other, so movement is distributed lightly.
+
 ## Analysis Reference
 
 [Frecuencia de aparición de las letras](https://es.wikipedia.org/wiki/Frecuencia_de_aparici%C3%B3n_de_letras#:~:text=Las%20consonantes%20m%C3%A1s%20frecuentes%20son,supera%20el%201%2C5%25)
@@ -40,7 +56,7 @@ Exit the 'Antitesis Layout' script from taskbar.
 
 ## Version
 
-v1.5.3
+v1.6.0
 
 ## Special thanks
 
