@@ -173,11 +173,19 @@ a::c
 ;	return
 ;}
 
+^s::send ^v
+return
+
 :*:s::
 if(st_Emoji_on = 0)
 {
-	Send, v
-	return
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send V  
+	else
+		send v
+	return 
 }
 else
 {
@@ -212,7 +220,7 @@ else
 	if(st_shift = "D" or st_caps = 1)
 		send A
 	else if(st_Emoji_on = 1)
-		send (a_a)
+		send (a_a´)
 	else
 		send a
 	KeyWait f, T0.22
@@ -277,9 +285,11 @@ k::t
 :*:l::
 {
 	GetKeyState, st_shift, Shift
-	st_caps := GetKeyState("Capslock", "T") 
+	st_caps := GetKeyState("Capslock", "T") 	
 	if(st_shift = "D" or st_caps = 1)
 		send E
+	else if(st_Emoji_on = 1)
+		send (｀e . e)
 	else
 		send e
 	KeyWait l, T0.22
@@ -336,10 +346,19 @@ SC028::m
 
 z::z
 
+; not working
+;^x::send ^x
+;return
+
 :*:x::
 if(st_Emoji_on = 0)
 {
-	Send, x
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T") 
+	if(st_shift = "D" or st_caps = 1)
+		send X
+	else
+		Send, x
 	return
 }
 else 
@@ -374,15 +393,29 @@ return
 	return
 }
 
-m::w
-
+:*:m::
+if(st_Emoji_on = 0)
+{
+	GetKeyState, st_shift, Shift
+	st_caps := GetKeyState("Capslock", "T")
+	if(st_shift = "D" or st_caps = 1)
+		send, W
+	else
+		send, w
+	return
+}
+else
+{
+	Send, (･ w ･ ´)
+	return
+}
 ,::y
 
 .::j
 
-SC035::|
+SC035::=
 
-+SC035::send {`%}
++SC035::send {<}
 
 ; Number row
 ; TODO, make it work with capslock
@@ -407,9 +440,9 @@ SC035::|
 
 +SC00B::Send, {U+0030}
 
-SC029::!
+SC029::'
 
-+SC029::¡
++SC029::Send, {U+005E}
 
 SC002::[
 
@@ -419,25 +452,25 @@ SC004::}
 
 SC005::(
 
-SC006::=
+SC006::!
 
-SC007::<
-
+SC007::?
+;todo emoji (´･_･`)?
 SC008::)
 
-SC009::&
+SC009::"
 
 SC00A::]
 
 SC00B::>
 
-SC00C::"
+SC00C::&
 
-+SC00C::send '
++SC00C::send ~
 
-SC00D::?
+SC00D::|
 
-+SC00D::send ¿
++SC00D::send {`%}
 
 SC00E::Tab
          
