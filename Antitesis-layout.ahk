@@ -1,4 +1,7 @@
-﻿;Emoji lager state
+﻿;todo: Swap 'd' and 'n', for better inner rolls bigram analysis
+;todo: Swap 'j' and 'w', for reddit comment by user paltamunoz
+
+;Emoji lager state
 st_Emoji := 0
 global st_Emoji_on := 0
 
@@ -37,16 +40,16 @@ CapsLock::
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
-		send O
+		send I
 	else
-		send o
+		send i
 	KeyWait w, T0.22
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
-			send {Backspace}Ó
+			send {Backspace}Í
 		else
-			send {Backspace}ó
+			send {Backspace}í
 		sleep 500
 	}
 	return
@@ -76,39 +79,25 @@ r::b
 ;+SC0014::send {`;}
 ;return
 
-:*:t::
-{
-	GetKeyState, st_shift, Shift
-	st_caps := GetKeyState("Capslock", "T") 
-	if(st_shift = "D" or st_caps = 1)
-		send {`;}
-	else
-		send {`,}
-	KeyWait SC0014, T0.22
-	if ErrorLevel
-	{
-		send {Backspace}{U+005E}
-		sleep 500
-	}
-	return
-}
+t::k
 
 :*:y::
 {
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
-		send H
+		send {`:}
 	else
-		send h
+		send .
 	KeyWait y, T0.22
-	if ErrorLevel
+	if ErrorLevel 
 	{
-		send {Backspace}{#}
+		send {Backspace}...
 		sleep 500
 	}
 	return
 }
+
 
 :*:u::
 {
@@ -130,13 +119,13 @@ r::b
 	return
 }
 
-i::d
+i::n
 
 o::g
 
-p::-
+p::m
 
-+p::send _
+;+p::send M
 
 SC001A::*
 
@@ -173,10 +162,10 @@ a::c
 ;	return
 ;}
 
-^s::send ^v
-return
+*s::send ^v
 
-:*:s::
+
+$s::
 if(st_Emoji_on = 0)
 {
 	GetKeyState, st_shift, Shift
@@ -198,16 +187,16 @@ else
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
-		send I
+		send O
 	else
-		send i
+		send o
 	KeyWait d, T0.22
 	if ErrorLevel
 	{
 		if(st_shift = "D" or st_caps = 1)
-			send {Backspace}Í
+			send {Backspace}Ó
 		else
-			send {Backspace}í
+			send {Backspace}ó
 		sleep 500
 	}
 	return
@@ -220,7 +209,7 @@ else
 	if(st_shift = "D" or st_caps = 1)
 		send A
 	else if(st_Emoji_on = 1)
-		send (a_a´)
+		send (a_a)
 	else
 		send a
 	KeyWait f, T0.22
@@ -285,11 +274,9 @@ k::t
 :*:l::
 {
 	GetKeyState, st_shift, Shift
-	st_caps := GetKeyState("Capslock", "T") 	
+	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
 		send E
-	else if(st_Emoji_on = 1)
-		send (｀e . e)
 	else
 		send e
 	KeyWait l, T0.22
@@ -304,7 +291,7 @@ k::t
 	return
 }
 
-SC027::n
+SC027::d
 ;{
 ;	GetKeyState, st_shift, Shift
 ;	st_caps := GetKeyState("Capslock", "T") 
@@ -323,7 +310,13 @@ SC027::n
 ;	}
 ;	return
 ;}
-SC028::m
+
+SC028::-
+
++SC028::_
+return
+
+
 ;+SC027::
 ;{
 ;	send N
@@ -346,17 +339,15 @@ SC028::m
 
 z::z
 
-; not working
-;^x::send ^x
-;return
+*x::send ^x
 
-:*:x::
+$x::
 if(st_Emoji_on = 0)
 {
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
-		send X
+		send X  
 	else
 		Send, x
 	return
@@ -369,46 +360,47 @@ else
 
 c::f
 
-v::k
-
-b::ñ
-
-B::Ñ
-return
-
-:*:n::
+:*:v::
 {
 	GetKeyState, st_shift, Shift
 	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
-		send {`:}
+		send H
 	else
-		send .
-	KeyWait n, T0.22
-	if ErrorLevel 
+		send h
+	KeyWait v, T0.22
+	if ErrorLevel
 	{
-		send {Backspace}...
+		send {Backspace}{#}
 		sleep 500
 	}
 	return
 }
 
-:*:m::
-if(st_Emoji_on = 0)
+:*:b::
 {
 	GetKeyState, st_shift, Shift
-	st_caps := GetKeyState("Capslock", "T")
+	st_caps := GetKeyState("Capslock", "T") 
 	if(st_shift = "D" or st_caps = 1)
-		send, W
+		send {`;}
 	else
-		send, w
+		send {`,}
+	KeyWait b, T0.22
+	if ErrorLevel
+	{
+		send {Backspace}{U+005E}
+		sleep 500
+	}
 	return
 }
-else
-{
-	Send, (･ w ･ ´)
-	return
-}
+
+n::ñ
+
+N::Ñ
+return
+
+m::w
+
 ,::y
 
 .::j
@@ -440,7 +432,7 @@ SC035::=
 
 +SC00B::Send, {U+0030}
 
-SC029::'
+SC029::<
 
 +SC029::Send, {U+005E}
 
@@ -455,7 +447,7 @@ SC005::(
 SC006::!
 
 SC007::?
-;todo emoji (´･_･`)?
+
 SC008::)
 
 SC009::"
@@ -466,7 +458,7 @@ SC00B::>
 
 SC00C::&
 
-+SC00C::send ~
++SC00C::send '
 
 SC00D::|
 

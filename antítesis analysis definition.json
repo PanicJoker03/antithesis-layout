@@ -21,8 +21,8 @@
     "moreInfoText": "Github Entry",
     "keys": [
         {
-            "primary": 33,
-            "shift": 161,
+            "primary": 94,
+            "shift": 39,
             "finger": 1,
             "id": 0,
             "altGr": -1,
@@ -61,7 +61,7 @@
             "shiftAltGr": -1
         },
         {
-            "primary": 61,
+            "primary": 33,
             "shift": 53,
             "finger": 4,
             "id": 5,
@@ -69,7 +69,7 @@
             "shiftAltGr": -1
         },
         {
-            "primary": 60,
+            "primary": 63,
             "shift": 54,
             "finger": 7,
             "id": 6,
@@ -85,7 +85,7 @@
             "shiftAltGr": -1
         },
         {
-            "primary": 38,
+            "primary": 34,
             "shift": 56,
             "finger": 8,
             "id": 8,
@@ -109,16 +109,16 @@
             "shiftAltGr": -1
         },
         {
-            "primary": 34,
-            "shift": 39,
+            "primary": 38,
+            "shift": 126,
             "finger": 8,
             "id": 11,
             "altGr": -1,
             "shiftAltGr": -1
         },
         {
-            "primary": 63,
-            "shift": 191,
+            "primary": 124,
+            "shift": 37,
             "finger": 9,
             "id": 12,
             "altGr": -1,
@@ -147,8 +147,8 @@
             "id": 15
         },
         {
-            "primary": 111,
-            "shift": 79,
+            "primary": 105,
+            "shift": 73,
             "finger": 2,
             "id": 16,
             "altGr": -1,
@@ -171,16 +171,16 @@
             "shiftAltGr": -1
         },
         {
-            "primary": 44,
-            "shift": 59,
+            "primary": 107,
+            "shift": 75,
             "finger": 4,
             "id": 19,
             "altGr": -1,
             "shiftAltGr": -1
         },
         {
-            "primary": 104,
-            "shift": 72,
+            "primary": 46,
+            "shift": 58,
             "finger": 7,
             "id": 20,
             "altGr": -1,
@@ -195,8 +195,8 @@
             "shiftAltGr": -1
         },
         {
-            "primary": 100,
-            "shift": 68,
+            "primary": 110,
+            "shift": 78,
             "finger": 8,
             "id": 22,
             "altGr": -1,
@@ -211,8 +211,8 @@
             "shiftAltGr": -1
         },
         {
-            "primary": 45,
-            "shift": 95,
+            "primary": 109,
+            "shift": 77,
             "finger": 7,
             "id": 24,
             "altGr": -1,
@@ -267,8 +267,8 @@
             "shiftAltGr": -1
         },
         {
-            "primary": 105,
-            "shift": 73,
+            "primary": 111,
+            "shift": 79,
             "finger": 3,
             "id": 31,
             "altGr": -1,
@@ -323,16 +323,16 @@
             "shiftAltGr": -1
         },
         {
-            "primary": 110,
-            "shift": 78,
+            "primary": 100,
+            "shift": 68,
             "finger": 10,
             "id": 38,
             "altGr": -1,
             "shiftAltGr": -1
         },
         {
-            "primary": 109,
-            "shift": 77,
+            "primary": 45,
+            "shift": 95,
             "finger": 10,
             "id": 39,
             "altGr": -1,
@@ -372,24 +372,24 @@
             "shiftAltGr": -1
         },
         {
-            "primary": 107,
-            "shift": 75,
+            "primary": 104,
+            "shift": 72,
             "finger": 4,
             "id": 45,
             "altGr": -1,
             "shiftAltGr": -1
         },
         {
-            "primary": 241,
-            "shift": 209,
+            "primary": 44,
+            "shift": 59,
             "finger": 4,
             "id": 46,
             "altGr": -1,
             "shiftAltGr": -1
         },
         {
-            "primary": 46,
-            "shift": 58,
+            "primary": 241,
+            "shift": 209,
             "finger": 7,
             "id": 47,
             "altGr": -1,
@@ -420,8 +420,8 @@
             "shiftAltGr": -1
         },
         {
-            "primary": 124,
-            "shift": 37,
+            "primary": 61,
+            "shift": 60,
             "finger": 8,
             "id": 51,
             "altGr": -1,
