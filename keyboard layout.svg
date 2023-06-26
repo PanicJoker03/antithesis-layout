@@ -22,6 +22,12 @@
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2">
+    <rect
+       x="1437.8571"
+       y="314.28571"
+       width="49.285714"
+       height="45.714286"
+       id="rect605" />
     <marker
        inkscape:stockid="Arrow2Mend"
        orient="auto"
@@ -145,8 +151,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="976.42857"
-     inkscape:cy="155"
+     inkscape:cx="972.85714"
+     inkscape:cy="345"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -835,28 +841,28 @@
          id="tspan5073"
          x="148.16559"
          y="114.5997"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">W</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">F</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="181.63318"
-       y="114.75551"
+       x="189.65665"
+       y="47.141689"
        id="text5079"><tspan
          sodipodi:role="line"
          id="tspan5077"
-         x="181.63318"
-         y="114.75551"
+         x="189.65665"
+         y="47.141689"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">K</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="224.00624"
-       y="47.159256"
+       x="181.51039"
+       y="114.50581"
        id="text5083"><tspan
          sodipodi:role="line"
          id="tspan5081"
-         x="224.00624"
-         y="47.159256"
+         x="181.51039"
+         y="114.50581"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">H</tspan></text>
     <text
        xml:space="preserve"
@@ -872,13 +878,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="401.35608"
-       y="81.018143"
+       x="358.85486"
+       y="47.336811"
        id="text5091"><tspan
          sodipodi:role="line"
          id="tspan5089"
-         x="401.35608"
-         y="81.018143"
+         x="358.85486"
+         y="47.336811"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">M</tspan></text>
     <text
        xml:space="preserve"
@@ -894,35 +900,35 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="361.2345"
-       y="63.025421"
+       x="403.45773"
+       y="95.894203"
        id="text5099"><tspan
          sodipodi:role="line"
          id="tspan5097"
-         x="361.2345"
-         y="63.025421"
+         x="403.45773"
+         y="95.894203"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">-</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="131.79779"
-       y="80.932762"
+       x="89.691246"
+       y="47.292881"
        id="text5103"><tspan
          sodipodi:role="line"
          id="tspan5101"
-         x="131.79779"
-         y="80.932762"
+         x="89.691246"
+         y="47.292881"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">I</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="88.920471"
-       y="47.72081"
+       x="131.14694"
+       y="80.848434"
        id="text5107"><tspan
          sodipodi:role="line"
          id="tspan5105"
-         x="88.920471"
-         y="47.72081"
+         x="131.14694"
+         y="80.848434"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">O</tspan></text>
     <text
        xml:space="preserve"
@@ -971,13 +977,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="291.84332"
-       y="47.625759"
+       x="367.74786"
+       y="80.499908"
        id="text5127"><tspan
          sodipodi:role="line"
          id="tspan5125"
-         x="291.84332"
-         y="47.625759"
+         x="367.74786"
+         y="80.499908"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">D</tspan></text>
     <text
        xml:space="preserve"
@@ -1004,13 +1010,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="368.55527"
-       y="80.8964"
+       x="291.05246"
+       y="46.953171"
        id="text5139"><tspan
          sodipodi:role="line"
          id="tspan5137"
-         x="368.55527"
-         y="80.8964"
+         x="291.05246"
+         y="46.953171"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">N</tspan></text>
     <text
        xml:space="preserve"
@@ -1059,24 +1065,24 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="250.74371"
-       y="130.3425"
+       x="227.50203"
+       y="62.985207"
        id="text5159"><tspan
          sodipodi:role="line"
          id="tspan5157"
-         x="250.74371"
-         y="130.3425"
+         x="227.50203"
+         y="62.985207"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">.</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="193.38083"
-       y="61.387424"
+       x="216.56165"
+       y="129.00124"
        id="text5163"><tspan
          sodipodi:role="line"
          id="tspan5161"
-         x="193.38083"
-         y="61.387424"
+         x="216.56165"
+         y="129.00124"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">,</tspan></text>
     <text
        xml:space="preserve"
@@ -1088,7 +1094,7 @@
          id="tspan5165"
          x="283.24414"
          y="114.65335"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">F</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">W</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -1114,13 +1120,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="215.4393"
-       y="115.27389"
+       x="249.79503"
+       y="115.24173"
        id="text5143-9"><tspan
          sodipodi:role="line"
          id="tspan5141-9"
-         x="215.4393"
-         y="115.27389"
+         x="249.79503"
+         y="115.24173"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS Bold';stroke-width:0.264583">Ñ</tspan></text>
     <text
        xml:space="preserve"
@@ -1132,7 +1138,7 @@
          id="tspan5173-1"
          x="173.9375"
          y="27.641371"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">=</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">!</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -1193,7 +1199,7 @@
          id="tspan5097-5-2-2-2"
          x="385.40811"
          y="113.71186"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';fill:#ff6600;stroke-width:0.264583">%</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';fill:#ff6600;stroke-width:0.264583">&lt;</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -1204,7 +1210,7 @@
          id="tspan5341"
          x="206.82802"
          y="28.387705"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">&lt;</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">?</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -1215,7 +1221,7 @@
          id="tspan5345"
          x="394.32376"
          y="126.41415"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">|</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">=</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -1259,7 +1265,7 @@
          id="tspan5361"
          x="275.52576"
          y="28.463299"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">&amp;</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">&quot;</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -1270,7 +1276,7 @@
          id="tspan5365"
          x="3.7986608"
          y="30.353182"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">!</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">'</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -1325,7 +1331,7 @@
          id="tspan5385"
          x="3.6474695"
          y="11.927703"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS Bold';fill:#ff6600;stroke-width:0.264583">¡</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS Bold';fill:#ff6600;stroke-width:0.264583">^</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -1336,7 +1342,7 @@
          id="tspan5389"
          x="377.9762"
          y="11.927703"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS Bold';fill:#ff6600;stroke-width:0.264583">'</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS Bold';fill:#ff6600;stroke-width:0.264583">~</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -1347,7 +1353,7 @@
          id="tspan5393"
          x="409.97183"
          y="13.515202"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';fill:#ff6600;stroke-width:0.264583">¿</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';fill:#ff6600;stroke-width:0.264583">%</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -1358,18 +1364,18 @@
          id="tspan5397"
          x="378.44864"
          y="30.353182"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">&quot;</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">&amp;</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="411.95624"
-       y="29.824015"
+       y="29.294847"
        id="text5403"><tspan
          sodipodi:role="line"
          id="tspan5401"
          x="411.95624"
-         y="29.824015"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">?</tspan></text>
+         y="29.294847"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';stroke-width:0.264583">|</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -1677,35 +1683,35 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="250.31035"
-       y="113.42448"
+       x="227.06866"
+       y="46.067184"
        id="text5159-4"><tspan
          sodipodi:role="line"
          id="tspan5157-7"
-         x="250.31035"
-         y="113.42448"
+         x="227.06866"
+         y="46.067184"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';fill:#ff6600;stroke-width:0.264583">:</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="192.52599"
-       y="44.697849"
+       x="215.7068"
+       y="112.31167"
        id="text5163-0"><tspan
          sodipodi:role="line"
          id="tspan5161-4"
-         x="192.52599"
-         y="44.697849"
+         x="215.7068"
+         y="112.31167"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';fill:#ff6600;stroke-width:0.264583">;</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="360.62735"
-       y="45.866451"
+       x="402.85059"
+       y="78.735229"
        id="text5099-96"><tspan
          sodipodi:role="line"
          id="tspan5097-54"
-         x="360.62735"
-         y="45.866451"
+         x="402.85059"
+         y="78.735229"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';fill:#ff6600;stroke-width:0.264583">_</tspan></text>
     <path
        style="fill:#ff7a22;stroke:#000000;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
@@ -1716,13 +1722,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="107.19244"
-       y="47.564415"
+       x="149.4189"
+       y="80.692039"
        id="text5107-3"><tspan
          sodipodi:role="line"
          id="tspan5105-6"
-         x="107.19244"
-         y="47.564415"
+         x="149.4189"
+         y="80.692039"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#ff00ff;stroke-width:0.264583">Ó</tspan></text>
     <text
        xml:space="preserve"
@@ -1749,14 +1755,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="175.70023"
+       x="173.05443"
        y="97.766785"
        id="text5107-3-9-2-0"><tspan
          sodipodi:role="line"
          id="tspan5105-6-1-8-3"
-         x="175.70023"
+         x="173.05443"
          y="97.766785"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#008080;stroke-width:0.264583">(a_a)</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#008080;stroke-width:0.264583">(a_a´)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -1803,14 +1809,36 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#008080;stroke-width:0.264583">(u_u)</tspan></text>
     <text
        xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="291.47012"
+       y="130.42049"
+       id="text5107-3-9-2-0-4-8"><tspan
+         sodipodi:role="line"
+         id="tspan5105-6-1-8-3-5-0"
+         x="291.47012"
+         y="130.42049"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#008080;stroke-width:0.264583">(･w･´)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="339.3978"
+       y="97.61216"
+       id="text5107-3-9-2-0-4-6"><tspan
+         sodipodi:role="line"
+         id="tspan5105-6-1-8-3-5-8"
+         x="339.3978"
+         y="97.61216"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#008080;stroke-width:0.264583">(｀e.e)</tspan></text>
+    <text
+       xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="152.62584"
-       y="80.873215"
+       x="110.51929"
+       y="47.233334"
        id="text5107-3-9-2-9"><tspan
          sodipodi:role="line"
          id="tspan5105-6-1-8-6"
-         x="152.62584"
-         y="80.873215"
+         x="110.51929"
+         y="47.233334"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#ff00ff;stroke-width:0.264583">Í</tspan></text>
     <text
        xml:space="preserve"
@@ -1848,13 +1876,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="265.80063"
-       y="113.27443"
+       x="242.55894"
+       y="45.917137"
        id="text5107-3-9-2-9-0-4-6"><tspan
          sodipodi:role="line"
          id="tspan5105-6-1-8-6-6-0-3"
-         x="265.80063"
-         y="113.27443"
+         x="242.55894"
+         y="45.917137"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#ff00ff;stroke-width:0.264583">...</tspan></text>
     <text
        xml:space="preserve"
@@ -1893,14 +1921,19 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Sans Uralic';-inkscape-font-specification:'Sans Uralic Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="242.9839"
-       y="46.326572"
+       x="200.48805"
+       y="113.67313"
        id="text5107-3-9-2-9-0-4-55-7"><tspan
          sodipodi:role="line"
          id="tspan5105-6-1-8-6-6-0-38-5"
-         x="242.9839"
-         y="46.326572"
+         x="200.48805"
+         y="113.67313"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#ff00ff;stroke-width:0.264583">#</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text603"
+       style="fill:#000000;white-space:pre;shape-inside:url(#rect605)" />
   </g>
   <g
      inkscape:groupmode="layer"

@@ -1,55 +1,61 @@
-partial alphanumeric_keys
-xkb_symbols "Antit3sis" {
-    include "us(basic)"
-    name[Group1]= "English (Antit3sis)";
 
-    key <TLDE> {	[     exclam	]	};
-    key <AE01> {	[	  grave,	0 ]	};
-    key <AE02> {	[	  braceleft,	1		]	};
-    key <AE03> {	[	  bracketleft,	2	]	};
-    key <AE04> {	[	  parenleft,	3		]	};
-    key <AE05> {	[	  less,	4		]	};
-    key <AE06> {	[	  ampersand,	5	]	};
-    key <AE07> {	[	  greater,	6	]	};
-    key <AE08> {	[	  braceright,	7	]	};
-    key <AE09> {	[	  bracketright,	8	]	};
-    key <AE10> {	[	  parenright,	9	]	};
-    key <AE11> {	[     quotedbl	]	};
-    key <AE12> {	[     apostrophe,	question		]	};
+partial alphanumeric_keys
+xkb_symbols "antit3sis" {
+
+    include "us(basic)"
+    name[Group1]= "antit3sis";
+    
+    key <TLDE> {	[     exclam,	exclamdown	]	};
+    key <AE01> {	[	  bracketleft,	1 		]	};
+    key <AE02> {	[	  braceleft,	2		]	};
+    key <AE03> {	[	  braceright,	3	]	};
+    key <AE04> {	[	  parenleft,	4		]	};
+    key <AE05> {	[	  exclam,	5		]	};
+    key <AE06> {	[	  question,	6	]	};
+    key <AE07> {	[	  parenright,	7	]	};
+    key <AE08> {	[	  quotedbl ,	8	]	};
+    key <AE09> {	[	  bracketright,	9	]	};
+    key <AE10> {	[	  greater,	0	]	};
+    key <AE11> {	[     ampersand,	quote	]	};
+    key <AE12> {	[     bar,	questiondown		]	};
 
     key <AD01> {	[	  q,	Q 		]	};
-    key <AD02> {	[	  o,	O		]	};
-    key <AD03> {	[	  u,	U 		]	};
-    key <AD04> {	[	  w,	W		]	};
-    key <AD05> {	[	  p,	P		]	};
-    key <AD06> {	[	  h,	H ]	};
+    key <AD02> {	[	  i,	I		]	};
+    key <AD03> {	[	  s,	S		]	};
+    key <AD04> {	[	  b,	B		]	};
+    key <AD05> {	[	  k,	K		]	};
+    key <AD06> {	[	  period,	colon 		]	};
     key <AD07> {	[	  l,	L		]	};
-    key <AD08> {	[	  d,	D		]	};
-    key <AD09> {	[	  j,	J		]	};
-    key <AD10> {	[	  minus,	underscore		]	};
+    key <AD08> {	[	  n,	N		]	};
+    key <AD09> {	[	  g,	G		]	};
+    key <AD10> {	[ 	  m,	M	]	};
+    key <AD11> {	[	  minus,	underscore		]	};
+    key <AD12> {	[     plus,	    asterisk	]	};
 
-    key <AC01> {	[ 	  c,	C 		]	};
-    key <AC02> {	[	  v,	V	]	};
-    key <AC03> {	[	  i,	I	]	};
-    key <AC04> {	[	  a,	A ]	};
-    key <AC05> {	[	  period,	colon	]	};
-    key <AC06> {	[	  r,	R		]	};
-    key <AC07> {	[	  b,	B		]	};
-    key <AC08> {	[	  t,	T ]	};
+    key <AC01> {	[	  c,	C 		]	};
+    key <AC02> {	[	  v,	V		]	};
+    key <AC03> {	[	  o,	O		]	};
+    key <AC04> {	[	  a,	A		]	};
+    key <AC05> {	[	  u,	U		]	};
+    key <AC06> {	[	  p,	P		]	};
+    key <AC07> {	[	  r,	R		]	};
+    key <AC08> {	[	  t,	T		]	};
     key <AC09> {	[	  e,	E		]	};
-    key <AC10> {	[ 	  n,	N		]	};
-    key <AC11> {	[     m,	M	    ]	};
-    
+    key <AC10> {	[ 	  d,	D		]	};
+    key <AC11> {	[     slash,	backslash	]	};
+
     key <AB01> {	[	  z,	Z 		]	};
     key <AB02> {	[	  x,	X		]	};
-    key <AB03> {	[	  s,	S		]	};
-    key <AB04> {	[	  k,	K		]	};
-    key <AB05> {	[	  ntilde,	Ntilde  		]	};
-    key <AB06> {	[	  comma,	semicolon		]	};
-    key <AB07> {	[	  f,	F		]	};
+    key <AB03> {	[	  f,	F		]	};
+    key <AB04> {	[	  h,	H		]	};
+    key <AB05> {	[	  comma,	semicolon		]	};
+    key <AB06> {	[	  ntilde,	Ntilde		]	};
+    key <AB07> {	[	  w,	W		]	};
     key <AB08> {	[     y,	Y		]	};
-    key <AB09> {	[     g,	G		]	};
-    key <AB10> {	[     equal,	percent		]	};
+    key <AB09> {	[     j,	J		]	};
+    key <AB10> {	[     equal,	less	]	};
 
-    key <CAPS> { 	[ Tab, CapsLock	] 	};
+    key <BKSL> {	[ backslash,         bar	]	};
+    key <BKSP> {	[ Tab,         Tab	]	};
+    key <TAB> {	[ BackSpace,         BackSpace	]	};
 };

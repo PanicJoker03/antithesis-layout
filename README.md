@@ -1,7 +1,7 @@
 # Antit3sis()
 
 QWERTY antithesis keyboard layout
-![ups, could not find that](https://raw.githubusercontent.com/PanicJoker03/antithesis-layout/45723373de7c39dcbd5fa038f2188f4fdb73c1ff/keyboard%20layout.svg)
+![ups, could not find that](https://raw.githubusercontent.com/PanicJoker03/antithesis-layout/decd65455be9a294a636b92f3fcc5206d3da307c/keyboard%20layout.svg)
 
 ## About
 
@@ -56,7 +56,7 @@ More frequent letters like 'A' and 'E' are distant each other, so movement is di
 
 ## Version
 
-v1.6.0
+v1.6.1
 
 ## Special thanks
 
@@ -65,3 +65,7 @@ Ricardo Trejo, for his testing feedback.
 Luis A. Núñez, for his advice and consistency suggestions.
 
 Moy Ramirez, for sharing to me information for a future posible patent on Mexican Territory.
+
+Reddit user paltamunoz, for his observation on letter 'D' placement.
+
+Reddit and Github user iandoug for his request to include a keyboard layout analyzer .json specification.
